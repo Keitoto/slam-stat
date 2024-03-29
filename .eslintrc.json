@@ -1,0 +1,99 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+    // "node": true,
+    // "jest": true,
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/jsx-runtime",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+  //   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "sort-keys-custom-order",
+    "simple-import-sort",
+    "prettier"
+  ],
+  "ignorePatterns": ["vite.config.ts", ".eslintrc.json"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "import/prefer-default-export": "off",
+    "simple-import-sort/imports": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": ["off"],
+    "react/jsx-props-no-spreading": ["off"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-uses-react": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["state"]
+      }
+    ],
+    "sort-keys-custom-order/type-keys": [
+      "error",
+      { "orderedKeys": ["id", "name", "title"] }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      // typeLike (class, interface, typeAlias, enum, typeParameter) should ne PascalCase
+      {
+        "selector": ["typeLike"],
+        "format": ["PascalCase"]
+      },
+      // function, method (classMethod, objectLiteralMethod, typeMethod) should be camelCase
+      {
+        "selector": ["function", "method"],
+        "format": ["camelCase"]
+      },
+      // variable, parameter that is not a function should be camelCase
+      {
+        "selector": ["variable", "parameter"],
+        "types": ["boolean", "string", "number", "array"],
+        "format": ["camelCase"]
+      },
+      // boolean variable should be PascalCase with prefix
+      {
+        "selector": "variable",
+        "types": ["boolean"],
+        "format": ["PascalCase"],
+        "prefix": ["no", "is", "has", "should"],
+        "filter": { "regex": "^_", "match": false }
+      }
+    ],
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+
+    // uncommit on developing
+    "no-console": "off",
+    "no-debugger": "off",
+    // change to ["error", "always"] before build
+    "arrow-body-style": 0
+  }
+}
