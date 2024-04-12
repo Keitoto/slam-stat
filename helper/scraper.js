@@ -70,6 +70,4 @@ const result = tableTextToObject(headers, data22to23);
 const jsonData = JSON.stringify(result, null, 2);
 
 // Write the data to a file
-fs.writeFileSync('data22to23.json', jsonData);
-
-console.log('Data has been written to output.json file.');
+// fs.writeFileSync('data22to23.json', jsonData);
