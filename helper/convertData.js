@@ -21,11 +21,17 @@ const extractNecessaryData = (data) =>
     },
   }));
 
+const createSearchData = (data) =>
+  data.map((data) => ({
+    id: data.id,
+    name: data.PLAYER,
+    games: data.GP,
+  }));
+
 const writeOutput = (json) => {
-  const result = extractNecessaryData(json);
-  console.log(result[0]);
+  const result = createSearchData(json);
   const jsonData = JSON.stringify(result, null, 2);
-  fs.writeFileSync('data22to23.json', jsonData);
+  fs.writeFileSync('searchData22to23.json', jsonData);
 };
 
 writeOutput(fullData22to23);
