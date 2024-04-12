@@ -57,6 +57,8 @@ function tableTextToObject(headers, tableText) {
       // Assign data to the corresponding header
       obj[headers[j]] = value;
     }
+    // use i as an id because there were some errors in raw data
+    obj.id = i + 1;
     // Push the object to the data array
     data.push(obj);
   }
@@ -70,4 +72,4 @@ const result = tableTextToObject(headers, data22to23);
 const jsonData = JSON.stringify(result, null, 2);
 
 // Write the data to a file
-// fs.writeFileSync('data22to23.json', jsonData);
+fs.writeFileSync('fullData22to23.json', jsonData);

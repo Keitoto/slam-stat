@@ -28,11 +28,17 @@ const createSearchData = (data) =>
     games: data.GP,
   }));
 
-const writeOutput = (json) => {
-  const result = createSearchData(json);
+const writeNecessaryData= (json) => {
+  const result = extractNecessaryData(json);
   const jsonData = JSON.stringify(result, null, 2);
-  fs.writeFileSync('searchData22to23.json', jsonData);
+  fs.writeFileSync('data/data22to23.json', jsonData);
 };
 
-writeOutput(fullData22to23);
-// console.log(fullData22to23[0]);
+const writeSearchData= (json) => {
+  const result = createSearchData(json);
+  const jsonData = JSON.stringify(result, null, 2);
+  fs.writeFileSync('data/searchData22to23.json', jsonData);
+};
+
+writeNecessaryData(fullData22to23);
+writeSearchData(fullData22to23);
