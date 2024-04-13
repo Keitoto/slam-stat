@@ -1,6 +1,6 @@
 import { Input } from '@/components/ui/input';
 import { ChangeEvent, useState, MouseEvent } from 'react';
-import searchData from '../../data/searchData22to23.json';
+import searchData from '../data/searchData22to23.json';
 
 export const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
