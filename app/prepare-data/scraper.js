@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { data22to23 } from '../data/rawdata22to23.js';
+import { data22to23 } from './rawdata22to23.js';
 
 const headers = [
   'id',
