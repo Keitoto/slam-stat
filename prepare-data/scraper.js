@@ -13,13 +13,13 @@ const headers = [
   'PTS',
   'FGM',
   'FGA',
-  'FG%',
+  'FGP',
   '3PM',
   '3PA',
-  '3P%',
+  'TPP',
   'FTM',
   'FTA',
-  'FT%',
+  'FTP',
   'OREB',
   'DREB',
   'REB',
@@ -72,4 +72,4 @@ const result = tableTextToObject(headers, data22to23);
 const jsonData = JSON.stringify(result, null, 2);
 
 // Write the data to a file
-fs.writeFileSync('fullData22to23.json', jsonData);
+fs.writeFileSync('prepare-data/fullData22to23.json', jsonData);

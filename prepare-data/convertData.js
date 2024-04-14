@@ -1,5 +1,5 @@
 import fs from 'fs';
-import fullData22to23 from '../../data/fullData22to23.json' assert { type: 'json' };
+import fullData22to23 from './fullData22to23.json' assert { type: 'json' };
 
 const extractNecessaryData = (data) =>
   data.map((data) => ({
@@ -31,13 +31,13 @@ const createSearchData = (data) =>
 const writeNecessaryData = (json) => {
   const result = extractNecessaryData(json);
   const jsonData = JSON.stringify(result, null, 2);
-  fs.writeFileSync('../data/data22to23.json', jsonData);
+  fs.writeFileSync('app/data/data22to23.json', jsonData);
 };
 
 const writeSearchData = (json) => {
   const result = createSearchData(json);
   const jsonData = JSON.stringify(result, null, 2);
-  fs.writeFileSync('../data/searchData22to23.json', jsonData);
+  fs.writeFileSync('app/data/searchData22to23.json', jsonData);
 };
 
 writeNecessaryData(fullData22to23);
