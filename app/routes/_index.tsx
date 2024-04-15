@@ -15,10 +15,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
+    <>
       <Header />
-      <GamePanel />
+      <main className="pt-16 py-8">
+        <GamePanel />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
