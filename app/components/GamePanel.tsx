@@ -1,7 +1,7 @@
 import { Question } from '@/components/Question';
 import { ResultTable } from '@/components/ResultTable';
 import { SearchBar } from '@/components/SearchBar';
-import StartGame from '@/components/StartGame';
+import { StartGame } from '@/components/StartGame';
 import { useGameStore } from '@/store/store';
 
 export const GamePanel = () => {
