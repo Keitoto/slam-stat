@@ -1,9 +1,11 @@
 import { Input } from '@/components/ui/input';
 import { ChangeEvent, useState, MouseEvent } from 'react';
 import searchData from '../data/searchData22to23.json';
+import { useGameStore } from '@/store/store';
 
 export const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const submitAnswer = useGameStore((state) => state.checkAnswer);
 
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
@@ -11,8 +13,9 @@ export const SearchBar = () => {
 
   const onSelectPlayer = (e: MouseEvent<HTMLUListElement>) => {
     if (!(e.target instanceof HTMLLIElement)) return;
-
-    console.log(e.target.dataset.id);
+    if (!e.target.dataset.id) return;
+    submitAnswer(+e.target.dataset.id);
+    setSearchTerm('');
   };
 
   const filteredData = searchData.filter((data) =>
