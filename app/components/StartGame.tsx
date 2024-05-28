@@ -24,7 +24,7 @@ export const StartGame = () => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Guess an NBA player from their Stats</CardTitle>
+        <CardTitle>Get 7 chances to guess an NBA player.</CardTitle>
         <CardDescription>2023-2024 Regular Season</CardDescription>
       </CardHeader>
       <CardContent className="children:mb-8">

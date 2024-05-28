@@ -1,7 +1,5 @@
 import { Modal } from '@/components/Modal';
-import { Question } from '@/components/Question';
-import { ResultTable } from '@/components/ResultTable';
-import { SearchBar } from '@/components/SearchBar';
+import { PlayingPanel } from '@/components/PlayingPanel';
 import { StartGame } from '@/components/StartGame';
 import { NUMBER_OF_LIFE, useGameStore } from '@/store/store';
 
@@ -17,11 +15,7 @@ export const GamePanel = () => {
         <StartGame />
       ) : (
         <>
-          <Question />
-          <div className="h-8"></div>
-          <SearchBar />
-          <div className="h-8"></div>
-          <ResultTable />
+          <PlayingPanel />
           <Modal
             isOpen={isResultOpen}
             closeModal={closeResult}

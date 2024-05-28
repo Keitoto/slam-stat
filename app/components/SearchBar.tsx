@@ -23,7 +23,7 @@ export const SearchBar = () => {
   );
 
   return (
-    <div>
+    <div className="flex-1">
       <Input
         placeholder="Guess a Player"
         value={searchTerm}
@@ -32,7 +32,7 @@ export const SearchBar = () => {
       {searchTerm && (
         <ul onClick={onSelectPlayer}>
           {filteredData.map((data) => (
-            <li data-id={data.id} key={data.id}>
+            <li data-id={data.id} key={data.id} className="cursor-pointer hover:underline">
               {data.name}
             </li>
           ))}
