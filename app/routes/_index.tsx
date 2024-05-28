@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <>
       <Header />
-      <main className="pt-16 py-8">
+      <main className="pt-16 py-8 flex items-center justify-center min-h-screen">
         <GamePanel />
       </main>
       <Footer />
