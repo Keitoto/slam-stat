@@ -3,13 +3,19 @@ import { LifeBar } from '@/components/LifeBar';
 import { QuizGrid } from '@/components/QuizGrid';
 import { ResultTable } from '@/components/ResultTable';
 import { SearchBar } from '@/components/SearchBar';
+import { ShowHintButton } from '@/components/ShowHintButton';
 import { Button } from '@/components/ui/button';
 import { useGameStore } from '@/store/store';
 
 export const PlayingPanel = () => {
-  const { targetPlayer, giveUp, remainingLife, isPlaying } = useGameStore(
-    (state) => state,
-  );
+  const {
+    targetPlayer,
+    giveUp,
+    remainingLife,
+    isPlaying,
+    isConfRevealed,
+    isTeamRevealed,
+  } = useGameStore((state) => state);
 
   if (!targetPlayer) return;
 
@@ -33,6 +39,15 @@ export const PlayingPanel = () => {
       <div className="mb-8">
         <QuizGrid data={targetPlayer} isPlaying={isPlaying} />
       </div>
+
+      {/* Show hint when life is less than 4 and team and/or conf is hidden  */}
+      {isPlaying &&
+        remainingLife < 4 &&
+        (!isConfRevealed || !isTeamRevealed) && (
+          <div className="mb-8 flex justify-center">
+            <ShowHintButton />
+          </div>
+        )}
 
       {isPlaying && (
         <div className="mb-16">

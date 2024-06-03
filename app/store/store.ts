@@ -30,6 +30,7 @@ interface GameAction {
   checkAnswer: (id: number) => void;
   giveUp: () => void;
   updateSetting: (min: number, games: number) => void;
+  revealHint: () => void;
 }
 
 const InitialState = {
@@ -131,4 +132,10 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       isConfRevealed: true,
       isTeamRevealed: true,
     })),
+  revealHint: () => {
+    set(() => ({
+      isConfRevealed: true,
+      isTeamRevealed: true,
+    }));
+  },
 }));
