@@ -1,59 +1,66 @@
 import { FC, ReactNode } from 'react';
 import { PlayerFullData } from '@/components/types';
 import { Card } from '@/components/ui/card';
+import { useGameStore } from '@/store/store';
+import { HiddenStat } from '@/components/HiddenStat';
 
 interface Props {
   data: PlayerFullData;
   isPlaying: boolean;
 }
 
-export const QuizGrid: FC<Props> = ({ data, isPlaying }) => {
+export const QuizGrid: FC<Props> = () => {
+  const { targetPlayer, isPlaying, isConfRevealed, isTeamRevealed } =
+    useGameStore((state) => state);
+
+  if (!targetPlayer) return;
+
   return (
     <Card className="p-4 border-4">
       {isPlaying ? (
         <p className="text-center mb-4 font-bold">Who is this Player?</p>
       ) : (
-        <p className="text-center mb-4 font-bold">{data.name}</p>
+        <p className="text-center mb-4 font-bold">{targetPlayer.name}</p>
       )}
       <div className="space-y-4">
         <div className="flex justify-around">
           <Cell label="Conf">
-            <p>{data.conf}</p>
+            <HiddenStat isOpen={isConfRevealed}>{targetPlayer.conf}</HiddenStat>
           </Cell>
           <Cell label="Team">
-            <p>{data.team}</p>
+            <HiddenStat isOpen={isTeamRevealed}>{targetPlayer.team}</HiddenStat>
           </Cell>
         </div>
         <div className="grid grid-cols-5 gap-x-4 gap-y-4">
           <Cell label="MIN">
-            <p>{data.stats.MIN}</p>
+            <p>{targetPlayer.stats.MIN}</p>
           </Cell>
           <Cell label="PTS">
-            <p>{data.stats.PTS}</p>
+            <p>{targetPlayer.stats.PTS}</p>
           </Cell>
           <Cell label="REB">
-            <p>{data.stats.REB}</p>
+            <p>{targetPlayer.stats.REB}</p>
           </Cell>
           <Cell label="AST">
-            <p>{data.stats.AST}</p>
+            <p>{targetPlayer.stats.AST}</p>
           </Cell>
           <Cell label="FG%">
-            <p>{data.stats.FGP}</p>
+            <p>{targetPlayer.stats.FGP}</p>
           </Cell>
           <Cell label="3P%">
-            <p>{data.stats.TPP}</p>
+            <p>{targetPlayer.stats.TPP}</p>
           </Cell>
           <Cell label="FT%">
-            <p>{data.stats.FTP}</p>
+            <p>{targetPlayer.stats.FTP}</p>
           </Cell>
           <Cell label="STL">
-            <p>{data.stats.STL}</p>
+            <p>{targetPlayer.stats.STL}</p>
           </Cell>
           <Cell label="BLK">
-            <p>{data.stats.BLK}</p>
+            <p>{targetPlayer.stats.BLK}</p>
           </Cell>
           <Cell label="TOV">
-            <p>{data.stats.TOV}</p>
+            <p>{targetPlayer.stats.TOV}</p>
           </Cell>
         </div>
       </div>

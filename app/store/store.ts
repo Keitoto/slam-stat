@@ -2,6 +2,7 @@ import { PlayerFullData } from '@/components/types';
 import { create } from 'zustand';
 import PlayerData from '@/data/data22to23.json';
 import { getPlayerById } from '@/helper/getPlayerById';
+import { getConferenceByTeam } from '@/helper/getConferenceByTeam';
 
 // Default constants
 export const MIN_MINUTE = 10;
@@ -19,6 +20,8 @@ interface GameState {
     min_games: number;
     min_minutes: number;
   };
+  isConfRevealed: boolean;
+  isTeamRevealed: boolean;
 }
 
 interface GameAction {
@@ -42,14 +45,17 @@ const InitialState = {
   },
   isPlaying: false,
   isSuccess: false,
+  isConfRevealed: false,
+  isTeamRevealed: false,
 };
 
 export const useGameStore = create<GameState & GameAction>()((set, get) => ({
   ...InitialState,
   startGame: () => {
-    const { filteredPlayers } = useGameStore.getState();
-    const targetPlayer =
-      filteredPlayers[Math.floor(Math.random() * filteredPlayers.length) - 1];
+    const { filteredPlayers } = get();
+    const randomIndex = Math.floor(Math.random() * filteredPlayers.length) - 1;
+    const targetPlayerId = filteredPlayers[randomIndex].id;
+    const targetPlayer = getPlayerById(targetPlayerId);
     set(() => ({
       targetPlayer,
       isPlaying: true,
@@ -62,34 +68,50 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       resultArray: [],
       isPlaying: false,
       isSuccess: false,
+      isConfRevealed: false,
+      isTeamRevealed: false,
     })),
   checkAnswer: (id: number) => {
-    const target = get().targetPlayer;
+    const { targetPlayer, isConfRevealed, isTeamRevealed } = get();
+    const submittedPlayer = getPlayerById(id);
 
-    if (!target) throw new Error();
+    if (!targetPlayer || !submittedPlayer) throw new Error();
 
-    if (id === target.id) {
+    if (id === targetPlayer.id) {
       // CORRECT
       set((state) => ({
         isPlaying: false,
         isSuccess: true,
         remainingLife: state.remainingLife - 1,
+        isConfRevealed: true,
+        isTeamRevealed: true,
       }));
     } else {
+      // WRONG
       const remainingLife = get().remainingLife;
-      const submittedPlayer = getPlayerById(id);
 
+      // Game Over
       if (remainingLife === 1) {
         set((state) => ({
           remainingLife: state.remainingLife - 1,
           resultArray: [...state.resultArray, submittedPlayer],
           isPlaying: false,
         }));
+
+        //Continue
       } else {
-        // WRONG
+        const teamRevealed =
+          isTeamRevealed || targetPlayer.team === submittedPlayer.team;
+
+        const confRevealed =
+          isConfRevealed ||
+          targetPlayer.conf === getConferenceByTeam(submittedPlayer.team);
+
         set((state) => ({
           remainingLife: state.remainingLife - 1,
           resultArray: [...state.resultArray, submittedPlayer],
+          isTeamRevealed: teamRevealed,
+          isConfRevealed: confRevealed,
         }));
       }
     }
@@ -103,5 +125,10 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       filteredPlayers,
     }));
   },
-  giveUp: () => set((state) => ({ isPlaying: false })),
+  giveUp: () =>
+    set(() => ({
+      isPlaying: false,
+      isConfRevealed: true,
+      isTeamRevealed: true,
+    })),
 }));
