@@ -12,8 +12,9 @@ interface GameState {
   targetPlayer: PlayerFullData | undefined;
   remainingLife: number;
   resultArray: PlayerFullData[];
-  isResultOpen: boolean;
   filteredPlayers: PlayerFullData[];
+  isPlaying: boolean;
+  isSuccess: boolean;
   setting: {
     min_games: number;
     min_minutes: number;
@@ -24,13 +25,11 @@ interface GameAction {
   startGame: () => void;
   resetGame: () => void;
   checkAnswer: (id: number) => void;
-  closeResult: () => void;
   giveUp: () => void;
   updateSetting: (min: number, games: number) => void;
 }
 
 const InitialState = {
-  // targetId: undefined,
   targetPlayer: undefined,
   remainingLife: NUMBER_OF_LIFE,
   resultArray: [],
@@ -41,7 +40,8 @@ const InitialState = {
     min_games: MIN_GAMES,
     min_minutes: MIN_MINUTE,
   },
-  isResultOpen: false,
+  isPlaying: false,
+  isSuccess: false,
 };
 
 export const useGameStore = create<GameState & GameAction>()((set, get) => ({
@@ -52,6 +52,7 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       filteredPlayers[Math.floor(Math.random() * filteredPlayers.length) - 1];
     set(() => ({
       targetPlayer,
+      isPlaying: true,
     }));
   },
   resetGame: () =>
@@ -59,7 +60,8 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       targetPlayer: undefined,
       remainingLife: NUMBER_OF_LIFE,
       resultArray: [],
-      isResultOpen: false,
+      isPlaying: false,
+      isSuccess: false,
     })),
   checkAnswer: (id: number) => {
     const target = get().targetPlayer;
@@ -68,18 +70,30 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
 
     if (id === target.id) {
       // CORRECT
-      set((state) => ({ isResultOpen: true }));
-      // TODO show WIN modal
-    } else {
-      // WRONG
-      const submittedPlayer = getPlayerById(id);
       set((state) => ({
+        isPlaying: false,
+        isSuccess: true,
         remainingLife: state.remainingLife - 1,
-        resultArray: [...state.resultArray, submittedPlayer],
       }));
+    } else {
+      const remainingLife = get().remainingLife;
+      const submittedPlayer = getPlayerById(id);
+
+      if (remainingLife === 1) {
+        set((state) => ({
+          remainingLife: state.remainingLife - 1,
+          resultArray: [...state.resultArray, submittedPlayer],
+          isPlaying: false,
+        }));
+      } else {
+        // WRONG
+        set((state) => ({
+          remainingLife: state.remainingLife - 1,
+          resultArray: [...state.resultArray, submittedPlayer],
+        }));
+      }
     }
   },
-  closeResult: () => set((state) => ({ isResultOpen: false })),
   updateSetting: (min, games) => {
     const filteredPlayers = (PlayerData as PlayerFullData[]).filter(
       (player) => player.games > games && player.stats.MIN > min,
@@ -89,5 +103,5 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
       filteredPlayers,
     }));
   },
-  giveUp: () => set((state) => ({ isResultOpen: true })),
+  giveUp: () => set((state) => ({ isPlaying: false })),
 }));

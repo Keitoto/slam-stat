@@ -4,12 +4,17 @@ import { Card } from '@/components/ui/card';
 
 interface Props {
   data: PlayerFullData;
+  isPlaying: boolean;
 }
 
-export const QuizGrid: FC<Props> = ({ data }) => {
+export const QuizGrid: FC<Props> = ({ data, isPlaying }) => {
   return (
     <Card className="p-4 border-4">
-      <h1 className="text-center mb-4 font-bold">Who is this Player?</h1>
+      {isPlaying ? (
+        <p className="text-center mb-4 font-bold">Who is this Player?</p>
+      ) : (
+        <p className="text-center mb-4 font-bold">{data.name}</p>
+      )}
       <div className="space-y-4">
         <div className="flex justify-around">
           <Cell label="Conf">
