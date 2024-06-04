@@ -24,6 +24,7 @@ export const PlayingPanel = () => {
 
   return (
     <>
+      {/* Game Header */}
       <div className="flex justify-between items-center gap-8 mb-4">
         <LifeBar remainingLife={remainingLife} />
         {isPlaying && (
@@ -33,12 +34,14 @@ export const PlayingPanel = () => {
         )}
       </div>
 
+      {/* Result Panel */}
       {!isPlaying && (
         <div className="mb-4" id="after-game">
           <AfterGame />
         </div>
       )}
 
+      {/* Question display */}
       <div className="mb-8">
         <QuizGrid data={targetPlayer} isPlaying={isPlaying} />
       </div>
@@ -52,12 +55,14 @@ export const PlayingPanel = () => {
           </div>
         )}
 
+      {/* Input for submit answer */}
       {isPlaying && (
         <div className="mb-16">
           <SearchBar />
         </div>
       )}
 
+      {/* List of incorrect answers */}
       <div>
         <p className="text-center pb-2">Your Answers</p>
         <ResultTable />
