@@ -3,6 +3,7 @@ import { create } from 'zustand';
 import PlayerData from '@/data/data22to23.json';
 import { getPlayerById } from '@/helper/getPlayerById';
 import { getConferenceByTeam } from '@/helper/getConferenceByTeam';
+import { scrollToElementWithSelector } from '@/helper/scrollToElementWithSelector';
 
 // Default constants
 export const MIN_MINUTE = 10;
@@ -78,6 +79,9 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
 
     if (!targetPlayer || !submittedPlayer) throw new Error();
 
+    // DEV
+    console.log(targetPlayer.name);
+
     if (id === targetPlayer.id) {
       // CORRECT
       set((state) => ({
@@ -87,6 +91,7 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
         isConfRevealed: true,
         isTeamRevealed: true,
       }));
+      scrollToElementWithSelector('html', { block: 'start' });
     } else {
       // WRONG
       const remainingLife = get().remainingLife;
@@ -99,7 +104,9 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
           isPlaying: false,
         }));
 
-        //Continue
+        scrollToElementWithSelector('html', { block: 'start' });
+
+        // Continue
       } else {
         const teamRevealed =
           isTeamRevealed || targetPlayer.team === submittedPlayer.team;
@@ -114,6 +121,8 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
           isTeamRevealed: teamRevealed,
           isConfRevealed: confRevealed,
         }));
+
+        scrollToElementWithSelector('#answers', { block: 'end' });
       }
     }
   },

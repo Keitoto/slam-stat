@@ -31,7 +31,7 @@ export const PlayingPanel = () => {
       </div>
 
       {!isPlaying && (
-        <div className="mb-4">
+        <div className="mb-4" id="after-game">
           <AfterGame />
         </div>
       )}
@@ -56,7 +56,7 @@ export const PlayingPanel = () => {
       )}
 
       <div>
-        <p className="text-center mb-2">Your Answers</p>
+        <p className="text-center pb-2">Your Answers</p>
         <ResultTable />
       </div>
     </>
