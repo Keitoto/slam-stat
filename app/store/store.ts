@@ -79,9 +79,6 @@ export const useGameStore = create<GameState & GameAction>()((set, get) => ({
 
     if (!targetPlayer || !submittedPlayer) throw new Error();
 
-    // DEV
-    console.log(targetPlayer.name);
-
     if (id === targetPlayer.id) {
       // CORRECT
       set((state) => ({

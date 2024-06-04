@@ -19,6 +19,9 @@ export const PlayingPanel = () => {
 
   if (!targetPlayer) return;
 
+  // DEV
+  console.log(targetPlayer.name);
+
   return (
     <>
       <div className="flex justify-between items-center gap-8 mb-4">
