@@ -74,3 +74,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+.green-cell {
+  @apply border border-green-400
+}
+.yellow-cell {
+  @apply border border-yellow-300
+}
