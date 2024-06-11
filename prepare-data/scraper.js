@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { data22to23 } from './rawdata22to23.js';
+import { data23to24 } from './rawdata23to24.js';
 
 const headers = [
   'id',
@@ -66,10 +66,10 @@ function tableTextToObject(headers, tableText) {
   return data;
 }
 
-const result = tableTextToObject(headers, data22to23);
+const result = tableTextToObject(headers, data23to24);
 
 // Convert the data to JSON format
 const jsonData = JSON.stringify(result, null, 2);
 
 // Write the data to a file
-fs.writeFileSync('prepare-data/fullData22to23.json', jsonData);
+fs.writeFileSync('prepare-data/fullData23to24.json', jsonData);

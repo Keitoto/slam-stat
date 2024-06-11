@@ -1,0 +1,6662 @@
+[
+  {
+    "id": 1,
+    "name": "Joel Embiid",
+    "games": 39,
+    "team": "PHI",
+    "stats": {
+      "MIN": 33.6,
+      "PTS": 34.7,
+      "REB": 11,
+      "AST": 5.6,
+      "FGP": 52.9,
+      "TPP": 38.8,
+      "FTP": 88.3,
+      "STL": 1.2,
+      "BLK": 1.7,
+      "TOV": 3.8
+    }
+  },
+  {
+    "id": 2,
+    "name": "Luka Doncic",
+    "games": 70,
+    "team": "DAL",
+    "stats": {
+      "MIN": 37.5,
+      "PTS": 33.9,
+      "REB": 9.2,
+      "AST": 9.8,
+      "FGP": 48.7,
+      "TPP": 38.2,
+      "FTP": 78.6,
+      "STL": 1.4,
+      "BLK": 0.5,
+      "TOV": 4
+    }
+  },
+  {
+    "id": 3,
+    "name": "Giannis Antetokounmpo",
+    "games": 73,
+    "team": "MIL",
+    "stats": {
+      "MIN": 35.2,
+      "PTS": 30.4,
+      "REB": 11.5,
+      "AST": 6.5,
+      "FGP": 61.1,
+      "TPP": 27.4,
+      "FTP": 65.7,
+      "STL": 1.2,
+      "BLK": 1.1,
+      "TOV": 3.4
+    }
+  },
+  {
+    "id": 4,
+    "name": "Shai Gilgeous-Alexander",
+    "games": 75,
+    "team": "OKC",
+    "stats": {
+      "MIN": 34,
+      "PTS": 30.1,
+      "REB": 5.5,
+      "AST": 6.2,
+      "FGP": 53.5,
+      "TPP": 35.3,
+      "FTP": 87.4,
+      "STL": 2,
+      "BLK": 0.9,
+      "TOV": 2.2
+    }
+  },
+  {
+    "id": 5,
+    "name": "Jalen Brunson",
+    "games": 77,
+    "team": "NYK",
+    "stats": {
+      "MIN": 35.4,
+      "PTS": 28.7,
+      "REB": 3.6,
+      "AST": 6.7,
+      "FGP": 47.9,
+      "TPP": 40.1,
+      "FTP": 84.7,
+      "STL": 0.9,
+      "BLK": 0.2,
+      "TOV": 2.4
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kevin Durant",
+    "games": 75,
+    "team": "PHX",
+    "stats": {
+      "MIN": 37.2,
+      "PTS": 27.1,
+      "REB": 6.6,
+      "AST": 5,
+      "FGP": 52.3,
+      "TPP": 41.3,
+      "FTP": 85.6,
+      "STL": 0.9,
+      "BLK": 1.2,
+      "TOV": 3.3
+    }
+  },
+  {
+    "id": 7,
+    "name": "Devin Booker",
+    "games": 68,
+    "team": "PHX",
+    "stats": {
+      "MIN": 36,
+      "PTS": 27.1,
+      "REB": 4.5,
+      "AST": 6.9,
+      "FGP": 49.2,
+      "TPP": 36.4,
+      "FTP": 88.6,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 8,
+    "name": "Jayson Tatum",
+    "games": 74,
+    "team": "BOS",
+    "stats": {
+      "MIN": 35.7,
+      "PTS": 26.9,
+      "REB": 8.1,
+      "AST": 4.9,
+      "FGP": 47.1,
+      "TPP": 37.6,
+      "FTP": 83.3,
+      "STL": 1,
+      "BLK": 0.6,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 9,
+    "name": "Donovan Mitchell",
+    "games": 55,
+    "team": "CLE",
+    "stats": {
+      "MIN": 35.3,
+      "PTS": 26.6,
+      "REB": 5.1,
+      "AST": 6.1,
+      "FGP": 46.2,
+      "TPP": 36.8,
+      "FTP": 86.5,
+      "STL": 1.8,
+      "BLK": 0.5,
+      "TOV": 2.8
+    }
+  },
+  {
+    "id": 10,
+    "name": "De'Aaron Fox",
+    "games": 74,
+    "team": "SAC",
+    "stats": {
+      "MIN": 35.9,
+      "PTS": 26.6,
+      "REB": 4.6,
+      "AST": 5.6,
+      "FGP": 46.5,
+      "TPP": 36.9,
+      "FTP": 73.8,
+      "STL": 2,
+      "BLK": 0.4,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 11,
+    "name": "Stephen Curry",
+    "games": 74,
+    "team": "GSW",
+    "stats": {
+      "MIN": 32.7,
+      "PTS": 26.4,
+      "REB": 4.5,
+      "AST": 5.1,
+      "FGP": 45,
+      "TPP": 40.8,
+      "FTP": 92.3,
+      "STL": 0.7,
+      "BLK": 0.4,
+      "TOV": 2.8
+    }
+  },
+  {
+    "id": 12,
+    "name": "Nikola Jokic",
+    "games": 79,
+    "team": "DEN",
+    "stats": {
+      "MIN": 34.6,
+      "PTS": 26.4,
+      "REB": 12.4,
+      "AST": 9,
+      "FGP": 58.3,
+      "TPP": 35.9,
+      "FTP": 81.7,
+      "STL": 1.4,
+      "BLK": 0.9,
+      "TOV": 3
+    }
+  },
+  {
+    "id": 13,
+    "name": "Tyrese Maxey",
+    "games": 70,
+    "team": "PHI",
+    "stats": {
+      "MIN": 37.5,
+      "PTS": 25.9,
+      "REB": 3.7,
+      "AST": 6.2,
+      "FGP": 45,
+      "TPP": 37.3,
+      "FTP": 86.8,
+      "STL": 1,
+      "BLK": 0.5,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 14,
+    "name": "Anthony Edwards",
+    "games": 79,
+    "team": "MIN",
+    "stats": {
+      "MIN": 35.1,
+      "PTS": 25.9,
+      "REB": 5.4,
+      "AST": 5.1,
+      "FGP": 46.1,
+      "TPP": 35.7,
+      "FTP": 83.6,
+      "STL": 1.3,
+      "BLK": 0.5,
+      "TOV": 3.1
+    }
+  },
+  {
+    "id": 15,
+    "name": "Trae Young",
+    "games": 54,
+    "team": "ATL",
+    "stats": {
+      "MIN": 36,
+      "PTS": 25.7,
+      "REB": 2.8,
+      "AST": 10.8,
+      "FGP": 43,
+      "TPP": 37.3,
+      "FTP": 85.5,
+      "STL": 1.3,
+      "BLK": 0.2,
+      "TOV": 4.4
+    }
+  },
+  {
+    "id": 16,
+    "name": "LeBron James",
+    "games": 71,
+    "team": "LAL",
+    "stats": {
+      "MIN": 35.3,
+      "PTS": 25.7,
+      "REB": 7.3,
+      "AST": 8.3,
+      "FGP": 54,
+      "TPP": 41,
+      "FTP": 75,
+      "STL": 1.3,
+      "BLK": 0.5,
+      "TOV": 3.5
+    }
+  },
+  {
+    "id": 17,
+    "name": "Kyrie Irving",
+    "games": 58,
+    "team": "DAL",
+    "stats": {
+      "MIN": 35,
+      "PTS": 25.6,
+      "REB": 5,
+      "AST": 5.2,
+      "FGP": 49.7,
+      "TPP": 41.1,
+      "FTP": 90.5,
+      "STL": 1.3,
+      "BLK": 0.5,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 18,
+    "name": "Anthony Davis",
+    "games": 76,
+    "team": "LAL",
+    "stats": {
+      "MIN": 35.5,
+      "PTS": 24.7,
+      "REB": 12.6,
+      "AST": 3.5,
+      "FGP": 55.6,
+      "TPP": 27.1,
+      "FTP": 81.6,
+      "STL": 1.2,
+      "BLK": 2.3,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 19,
+    "name": "Damian Lillard",
+    "games": 73,
+    "team": "MIL",
+    "stats": {
+      "MIN": 35.3,
+      "PTS": 24.3,
+      "REB": 4.4,
+      "AST": 7,
+      "FGP": 42.4,
+      "TPP": 35.4,
+      "FTP": 92,
+      "STL": 1,
+      "BLK": 0.2,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 20,
+    "name": "DeMar DeRozan",
+    "games": 79,
+    "team": "CHI",
+    "stats": {
+      "MIN": 37.8,
+      "PTS": 24,
+      "REB": 4.3,
+      "AST": 5.3,
+      "FGP": 48,
+      "TPP": 33.3,
+      "FTP": 85.3,
+      "STL": 1.1,
+      "BLK": 0.6,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 21,
+    "name": "Julius Randle",
+    "games": 46,
+    "team": "NYK",
+    "stats": {
+      "MIN": 35.4,
+      "PTS": 24,
+      "REB": 9.2,
+      "AST": 5,
+      "FGP": 47.2,
+      "TPP": 31.1,
+      "FTP": 78.1,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 3.5
+    }
+  },
+  {
+    "id": 22,
+    "name": "Desmond Bane",
+    "games": 42,
+    "team": "MEM",
+    "stats": {
+      "MIN": 34.4,
+      "PTS": 23.7,
+      "REB": 4.4,
+      "AST": 5.5,
+      "FGP": 46.4,
+      "TPP": 38.1,
+      "FTP": 87,
+      "STL": 1,
+      "BLK": 0.5,
+      "TOV": 2.7
+    }
+  },
+  {
+    "id": 23,
+    "name": "Kawhi Leonard",
+    "games": 68,
+    "team": "LAC",
+    "stats": {
+      "MIN": 34.3,
+      "PTS": 23.7,
+      "REB": 6.1,
+      "AST": 3.6,
+      "FGP": 52.5,
+      "TPP": 41.7,
+      "FTP": 88.5,
+      "STL": 1.6,
+      "BLK": 0.9,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 24,
+    "name": "Lauri Markkanen",
+    "games": 55,
+    "team": "UTA",
+    "stats": {
+      "MIN": 33.1,
+      "PTS": 23.2,
+      "REB": 8.2,
+      "AST": 2,
+      "FGP": 48,
+      "TPP": 39.9,
+      "FTP": 89.9,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 25,
+    "name": "Jaylen Brown",
+    "games": 70,
+    "team": "BOS",
+    "stats": {
+      "MIN": 33.5,
+      "PTS": 23,
+      "REB": 5.5,
+      "AST": 3.6,
+      "FGP": 49.9,
+      "TPP": 35.4,
+      "FTP": 70.3,
+      "STL": 1.2,
+      "BLK": 0.5,
+      "TOV": 2.4
+    }
+  },
+  {
+    "id": 26,
+    "name": "Zion Williamson",
+    "games": 70,
+    "team": "NOP",
+    "stats": {
+      "MIN": 31.5,
+      "PTS": 22.9,
+      "REB": 5.8,
+      "AST": 5,
+      "FGP": 57,
+      "TPP": 33.3,
+      "FTP": 70.2,
+      "STL": 1.1,
+      "BLK": 0.7,
+      "TOV": 2.8
+    }
+  },
+  {
+    "id": 27,
+    "name": "Cade Cunningham",
+    "games": 62,
+    "team": "DET",
+    "stats": {
+      "MIN": 33.5,
+      "PTS": 22.7,
+      "REB": 4.3,
+      "AST": 7.5,
+      "FGP": 44.9,
+      "TPP": 35.5,
+      "FTP": 86.9,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 3.4
+    }
+  },
+  {
+    "id": 28,
+    "name": "Anfernee Simons",
+    "games": 46,
+    "team": "POR",
+    "stats": {
+      "MIN": 34.4,
+      "PTS": 22.6,
+      "REB": 3.6,
+      "AST": 5.5,
+      "FGP": 43,
+      "TPP": 38.5,
+      "FTP": 91.6,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 2.7
+    }
+  },
+  {
+    "id": 29,
+    "name": "Paul George",
+    "games": 74,
+    "team": "LAC",
+    "stats": {
+      "MIN": 33.8,
+      "PTS": 22.6,
+      "REB": 5.2,
+      "AST": 3.5,
+      "FGP": 47.1,
+      "TPP": 41.3,
+      "FTP": 90.7,
+      "STL": 1.5,
+      "BLK": 0.5,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 30,
+    "name": "Paolo Banchero",
+    "games": 80,
+    "team": "ORL",
+    "stats": {
+      "MIN": 35,
+      "PTS": 22.6,
+      "REB": 6.9,
+      "AST": 5.4,
+      "FGP": 45.5,
+      "TPP": 33.9,
+      "FTP": 72.5,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 3.1
+    }
+  },
+  {
+    "id": 31,
+    "name": "Jaren Jackson Jr.",
+    "games": 66,
+    "team": "MEM",
+    "stats": {
+      "MIN": 32.2,
+      "PTS": 22.5,
+      "REB": 5.5,
+      "AST": 2.3,
+      "FGP": 44.4,
+      "TPP": 32,
+      "FTP": 80.8,
+      "STL": 1.2,
+      "BLK": 1.6,
+      "TOV": 2.4
+    }
+  },
+  {
+    "id": 32,
+    "name": "Dejounte Murray",
+    "games": 78,
+    "team": "ATL",
+    "stats": {
+      "MIN": 35.7,
+      "PTS": 22.5,
+      "REB": 5.3,
+      "AST": 6.4,
+      "FGP": 45.9,
+      "TPP": 36.3,
+      "FTP": 79.4,
+      "STL": 1.4,
+      "BLK": 0.3,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 33,
+    "name": "Cam Thomas",
+    "games": 66,
+    "team": "BKN",
+    "stats": {
+      "MIN": 31.4,
+      "PTS": 22.5,
+      "REB": 3.2,
+      "AST": 2.9,
+      "FGP": 44.2,
+      "TPP": 36.4,
+      "FTP": 85.6,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 34,
+    "name": "Kyle Kuzma",
+    "games": 70,
+    "team": "WAS",
+    "stats": {
+      "MIN": 32.6,
+      "PTS": 22.2,
+      "REB": 6.6,
+      "AST": 4.2,
+      "FGP": 46.3,
+      "TPP": 33.6,
+      "FTP": 77.5,
+      "STL": 0.5,
+      "BLK": 0.7,
+      "TOV": 2.7
+    }
+  },
+  {
+    "id": 35,
+    "name": "Karl-Anthony Towns",
+    "games": 62,
+    "team": "MIN",
+    "stats": {
+      "MIN": 32.7,
+      "PTS": 21.8,
+      "REB": 8.3,
+      "AST": 3,
+      "FGP": 50.4,
+      "TPP": 41.6,
+      "FTP": 87.3,
+      "STL": 0.7,
+      "BLK": 0.7,
+      "TOV": 2.9
+    }
+  },
+  {
+    "id": 36,
+    "name": "Pascal Siakam",
+    "games": 80,
+    "team": "IND",
+    "stats": {
+      "MIN": 33.2,
+      "PTS": 21.7,
+      "REB": 7.1,
+      "AST": 4.3,
+      "FGP": 53.6,
+      "TPP": 34.6,
+      "FTP": 73.2,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 37,
+    "name": "Victor Wembanyama",
+    "games": 71,
+    "team": "SAS",
+    "stats": {
+      "MIN": 29.7,
+      "PTS": 21.4,
+      "REB": 10.6,
+      "AST": 3.9,
+      "FGP": 46.5,
+      "TPP": 32.5,
+      "FTP": 79.6,
+      "STL": 1.2,
+      "BLK": 3.6,
+      "TOV": 3.7
+    }
+  },
+  {
+    "id": 38,
+    "name": "Jamal Murray",
+    "games": 59,
+    "team": "DEN",
+    "stats": {
+      "MIN": 31.5,
+      "PTS": 21.2,
+      "REB": 4.1,
+      "AST": 6.5,
+      "FGP": 48.1,
+      "TPP": 42.5,
+      "FTP": 85.3,
+      "STL": 1,
+      "BLK": 0.7,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 39,
+    "name": "Alperen Sengun",
+    "games": 63,
+    "team": "HOU",
+    "stats": {
+      "MIN": 32.5,
+      "PTS": 21.1,
+      "REB": 9.3,
+      "AST": 5,
+      "FGP": 53.7,
+      "TPP": 29.7,
+      "FTP": 69.3,
+      "STL": 1.2,
+      "BLK": 0.7,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 40,
+    "name": "Miles Bridges",
+    "games": 69,
+    "team": "CHA",
+    "stats": {
+      "MIN": 37.4,
+      "PTS": 21,
+      "REB": 7.3,
+      "AST": 3.3,
+      "FGP": 46.2,
+      "TPP": 34.9,
+      "FTP": 82.5,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 2
+    }
+  },
+  {
+    "id": 41,
+    "name": "Jerami Grant",
+    "games": 54,
+    "team": "POR",
+    "stats": {
+      "MIN": 33.9,
+      "PTS": 21,
+      "REB": 3.5,
+      "AST": 2.8,
+      "FGP": 45.1,
+      "TPP": 40.2,
+      "FTP": 81.7,
+      "STL": 0.8,
+      "BLK": 0.6,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 42,
+    "name": "Tyler Herro",
+    "games": 42,
+    "team": "MIA",
+    "stats": {
+      "MIN": 33.5,
+      "PTS": 20.8,
+      "REB": 5.3,
+      "AST": 4.5,
+      "FGP": 44.1,
+      "TPP": 39.6,
+      "FTP": 85.6,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 2.2
+    }
+  },
+  {
+    "id": 43,
+    "name": "Brandon Ingram",
+    "games": 64,
+    "team": "NOP",
+    "stats": {
+      "MIN": 32.9,
+      "PTS": 20.8,
+      "REB": 5.1,
+      "AST": 5.7,
+      "FGP": 49.2,
+      "TPP": 35.5,
+      "FTP": 80.1,
+      "STL": 0.8,
+      "BLK": 0.6,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 44,
+    "name": "Jimmy Butler",
+    "games": 60,
+    "team": "MIA",
+    "stats": {
+      "MIN": 34,
+      "PTS": 20.8,
+      "REB": 5.3,
+      "AST": 5,
+      "FGP": 49.9,
+      "TPP": 41.4,
+      "FTP": 85.8,
+      "STL": 1.3,
+      "BLK": 0.3,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 45,
+    "name": "RJ Barrett",
+    "games": 58,
+    "team": "TOR",
+    "stats": {
+      "MIN": 31.7,
+      "PTS": 20.2,
+      "REB": 5.4,
+      "AST": 3.3,
+      "FGP": 49.5,
+      "TPP": 36,
+      "FTP": 71.5,
+      "STL": 0.5,
+      "BLK": 0.4,
+      "TOV": 2.2
+    }
+  },
+  {
+    "id": 46,
+    "name": "Tyrese Haliburton",
+    "games": 69,
+    "team": "IND",
+    "stats": {
+      "MIN": 32.2,
+      "PTS": 20.1,
+      "REB": 3.9,
+      "AST": 10.9,
+      "FGP": 47.7,
+      "TPP": 36.4,
+      "FTP": 85.5,
+      "STL": 1.2,
+      "BLK": 0.7,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 47,
+    "name": "Kristaps Porzingis",
+    "games": 57,
+    "team": "BOS",
+    "stats": {
+      "MIN": 29.6,
+      "PTS": 20.1,
+      "REB": 7.2,
+      "AST": 2,
+      "FGP": 51.6,
+      "TPP": 37.5,
+      "FTP": 85.8,
+      "STL": 0.7,
+      "BLK": 1.9,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 48,
+    "name": "CJ McCollum",
+    "games": 66,
+    "team": "NOP",
+    "stats": {
+      "MIN": 32.7,
+      "PTS": 20,
+      "REB": 4.3,
+      "AST": 4.6,
+      "FGP": 45.9,
+      "TPP": 42.9,
+      "FTP": 82.7,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 49,
+    "name": "Scottie Barnes",
+    "games": 60,
+    "team": "TOR",
+    "stats": {
+      "MIN": 34.9,
+      "PTS": 19.9,
+      "REB": 8.2,
+      "AST": 6.1,
+      "FGP": 47.5,
+      "TPP": 34.1,
+      "FTP": 78.1,
+      "STL": 1.3,
+      "BLK": 1.5,
+      "TOV": 2.8
+    }
+  },
+  {
+    "id": 50,
+    "name": "Terry Rozier",
+    "games": 61,
+    "team": "MIA",
+    "stats": {
+      "MIN": 33.4,
+      "PTS": 19.8,
+      "REB": 4,
+      "AST": 5.6,
+      "FGP": 44.3,
+      "TPP": 36.3,
+      "FTP": 86.9,
+      "STL": 1,
+      "BLK": 0.3,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 51,
+    "name": "Franz Wagner",
+    "games": 72,
+    "team": "ORL",
+    "stats": {
+      "MIN": 32.5,
+      "PTS": 19.7,
+      "REB": 5.3,
+      "AST": 3.7,
+      "FGP": 48.2,
+      "TPP": 28.1,
+      "FTP": 85,
+      "STL": 1.1,
+      "BLK": 0.4,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 52,
+    "name": "Jalen Green",
+    "games": 82,
+    "team": "HOU",
+    "stats": {
+      "MIN": 31.7,
+      "PTS": 19.6,
+      "REB": 5.2,
+      "AST": 3.5,
+      "FGP": 42.3,
+      "TPP": 33.2,
+      "FTP": 80.4,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 53,
+    "name": "Mikal Bridges",
+    "games": 82,
+    "team": "BKN",
+    "stats": {
+      "MIN": 34.8,
+      "PTS": 19.6,
+      "REB": 4.5,
+      "AST": 3.6,
+      "FGP": 43.6,
+      "TPP": 37.2,
+      "FTP": 81.4,
+      "STL": 1,
+      "BLK": 0.4,
+      "TOV": 2
+    }
+  },
+  {
+    "id": 54,
+    "name": "Devin Vassell",
+    "games": 68,
+    "team": "SAS",
+    "stats": {
+      "MIN": 33.1,
+      "PTS": 19.5,
+      "REB": 3.8,
+      "AST": 4.1,
+      "FGP": 47.2,
+      "TPP": 37.2,
+      "FTP": 80.1,
+      "STL": 1.1,
+      "BLK": 0.3,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 55,
+    "name": "Domantas Sabonis",
+    "games": 82,
+    "team": "SAC",
+    "stats": {
+      "MIN": 35.7,
+      "PTS": 19.4,
+      "REB": 13.7,
+      "AST": 8.2,
+      "FGP": 59.4,
+      "TPP": 37.9,
+      "FTP": 70.4,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 3.3
+    }
+  },
+  {
+    "id": 56,
+    "name": "Bam Adebayo",
+    "games": 71,
+    "team": "MIA",
+    "stats": {
+      "MIN": 34,
+      "PTS": 19.3,
+      "REB": 10.4,
+      "AST": 3.9,
+      "FGP": 52.1,
+      "TPP": 35.7,
+      "FTP": 75.5,
+      "STL": 1.1,
+      "BLK": 0.9,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 57,
+    "name": "Coby White",
+    "games": 79,
+    "team": "CHI",
+    "stats": {
+      "MIN": 36.5,
+      "PTS": 19.1,
+      "REB": 4.5,
+      "AST": 5.1,
+      "FGP": 44.7,
+      "TPP": 37.6,
+      "FTP": 83.8,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 58,
+    "name": "Jalen Williams",
+    "games": 71,
+    "team": "OKC",
+    "stats": {
+      "MIN": 31.3,
+      "PTS": 19.1,
+      "REB": 4,
+      "AST": 4.5,
+      "FGP": 54,
+      "TPP": 42.7,
+      "FTP": 81.4,
+      "STL": 1.1,
+      "BLK": 0.6,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 59,
+    "name": "Collin Sexton",
+    "games": 78,
+    "team": "UTA",
+    "stats": {
+      "MIN": 26.6,
+      "PTS": 18.7,
+      "REB": 2.6,
+      "AST": 4.9,
+      "FGP": 48.7,
+      "TPP": 39.4,
+      "FTP": 85.9,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 60,
+    "name": "Bradley Beal",
+    "games": 53,
+    "team": "PHX",
+    "stats": {
+      "MIN": 33.3,
+      "PTS": 18.2,
+      "REB": 4.4,
+      "AST": 5,
+      "FGP": 51.3,
+      "TPP": 43,
+      "FTP": 81.3,
+      "STL": 1,
+      "BLK": 0.5,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 61,
+    "name": "Darius Garland",
+    "games": 57,
+    "team": "CLE",
+    "stats": {
+      "MIN": 33.3,
+      "PTS": 18,
+      "REB": 2.7,
+      "AST": 6.5,
+      "FGP": 44.6,
+      "TPP": 37.1,
+      "FTP": 83.4,
+      "STL": 1.3,
+      "BLK": 0.1,
+      "TOV": 3.1
+    }
+  },
+  {
+    "id": 62,
+    "name": "Nikola Vucevic",
+    "games": 76,
+    "team": "CHI",
+    "stats": {
+      "MIN": 34.3,
+      "PTS": 18,
+      "REB": 10.5,
+      "AST": 3.3,
+      "FGP": 48.4,
+      "TPP": 29.4,
+      "FTP": 82.2,
+      "STL": 0.7,
+      "BLK": 0.8,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 63,
+    "name": "D'Angelo Russell",
+    "games": 76,
+    "team": "LAL",
+    "stats": {
+      "MIN": 32.7,
+      "PTS": 18,
+      "REB": 3.1,
+      "AST": 6.3,
+      "FGP": 45.6,
+      "TPP": 41.5,
+      "FTP": 82.8,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 64,
+    "name": "Klay Thompson",
+    "games": 77,
+    "team": "GSW",
+    "stats": {
+      "MIN": 29.7,
+      "PTS": 17.9,
+      "REB": 3.3,
+      "AST": 2.3,
+      "FGP": 43.2,
+      "TPP": 38.7,
+      "FTP": 92.7,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 65,
+    "name": "Fred VanVleet",
+    "games": 73,
+    "team": "HOU",
+    "stats": {
+      "MIN": 36.8,
+      "PTS": 17.4,
+      "REB": 3.8,
+      "AST": 8.1,
+      "FGP": 41.6,
+      "TPP": 38.7,
+      "FTP": 86,
+      "STL": 1.4,
+      "BLK": 0.8,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 66,
+    "name": "Jordan Poole",
+    "games": 78,
+    "team": "WAS",
+    "stats": {
+      "MIN": 30.1,
+      "PTS": 17.4,
+      "REB": 2.7,
+      "AST": 4.4,
+      "FGP": 41.3,
+      "TPP": 32.6,
+      "FTP": 87.7,
+      "STL": 1.1,
+      "BLK": 0.3,
+      "TOV": 2.4
+    }
+  },
+  {
+    "id": 67,
+    "name": "Brandon Miller",
+    "games": 74,
+    "team": "CHA",
+    "stats": {
+      "MIN": 32.2,
+      "PTS": 17.3,
+      "REB": 4.3,
+      "AST": 2.4,
+      "FGP": 44,
+      "TPP": 37.3,
+      "FTP": 82.7,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 68,
+    "name": "Tobias Harris",
+    "games": 70,
+    "team": "PHI",
+    "stats": {
+      "MIN": 33.8,
+      "PTS": 17.2,
+      "REB": 6.5,
+      "AST": 3.1,
+      "FGP": 48.7,
+      "TPP": 35.3,
+      "FTP": 87.8,
+      "STL": 1,
+      "BLK": 0.7,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 69,
+    "name": "Jordan Clarkson",
+    "games": 55,
+    "team": "UTA",
+    "stats": {
+      "MIN": 30.6,
+      "PTS": 17.1,
+      "REB": 3.4,
+      "AST": 5,
+      "FGP": 41.3,
+      "TPP": 29.4,
+      "FTP": 88.1,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 2.7
+    }
+  },
+  {
+    "id": 70,
+    "name": "Myles Turner",
+    "games": 77,
+    "team": "IND",
+    "stats": {
+      "MIN": 27,
+      "PTS": 17.1,
+      "REB": 6.9,
+      "AST": 1.3,
+      "FGP": 52.4,
+      "TPP": 35.8,
+      "FTP": 77.3,
+      "STL": 0.5,
+      "BLK": 1.9,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 71,
+    "name": "Immanuel Quickley",
+    "games": 68,
+    "team": "TOR",
+    "stats": {
+      "MIN": 29.2,
+      "PTS": 17,
+      "REB": 3.8,
+      "AST": 4.9,
+      "FGP": 43.4,
+      "TPP": 39.5,
+      "FTP": 85.3,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 72,
+    "name": "Bogdan Bogdanovic",
+    "games": 79,
+    "team": "ATL",
+    "stats": {
+      "MIN": 30.4,
+      "PTS": 16.9,
+      "REB": 3.4,
+      "AST": 3.1,
+      "FGP": 42.8,
+      "TPP": 37.4,
+      "FTP": 92.1,
+      "STL": 1.2,
+      "BLK": 0.3,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 73,
+    "name": "Michael Porter Jr.",
+    "games": 81,
+    "team": "DEN",
+    "stats": {
+      "MIN": 31.7,
+      "PTS": 16.7,
+      "REB": 7,
+      "AST": 1.5,
+      "FGP": 48.4,
+      "TPP": 39.7,
+      "FTP": 83.6,
+      "STL": 0.5,
+      "BLK": 0.7,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 74,
+    "name": "Deandre Ayton",
+    "games": 55,
+    "team": "POR",
+    "stats": {
+      "MIN": 32.4,
+      "PTS": 16.7,
+      "REB": 11.1,
+      "AST": 1.6,
+      "FGP": 57,
+      "TPP": 10,
+      "FTP": 82.3,
+      "STL": 1,
+      "BLK": 0.8,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 75,
+    "name": "James Harden",
+    "games": 72,
+    "team": "LAC",
+    "stats": {
+      "MIN": 34.3,
+      "PTS": 16.6,
+      "REB": 5.1,
+      "AST": 8.5,
+      "FGP": 42.8,
+      "TPP": 38.1,
+      "FTP": 87.8,
+      "STL": 1.1,
+      "BLK": 0.8,
+      "TOV": 2.6
+    }
+  },
+  {
+    "id": 76,
+    "name": "Chet Holmgren",
+    "games": 82,
+    "team": "OKC",
+    "stats": {
+      "MIN": 29.4,
+      "PTS": 16.5,
+      "REB": 7.9,
+      "AST": 2.4,
+      "FGP": 53,
+      "TPP": 37,
+      "FTP": 79.3,
+      "STL": 0.6,
+      "BLK": 2.3,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 77,
+    "name": "Jarrett Allen",
+    "games": 77,
+    "team": "CLE",
+    "stats": {
+      "MIN": 31.7,
+      "PTS": 16.5,
+      "REB": 10.5,
+      "AST": 2.7,
+      "FGP": 63.4,
+      "TPP": 0,
+      "FTP": 74.2,
+      "STL": 0.7,
+      "BLK": 1.1,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 78,
+    "name": "Jonathan Kuminga",
+    "games": 74,
+    "team": "GSW",
+    "stats": {
+      "MIN": 26.3,
+      "PTS": 16.1,
+      "REB": 4.8,
+      "AST": 2.2,
+      "FGP": 52.9,
+      "TPP": 32.1,
+      "FTP": 74.6,
+      "STL": 0.7,
+      "BLK": 0.5,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 79,
+    "name": "Jalen Johnson",
+    "games": 56,
+    "team": "ATL",
+    "stats": {
+      "MIN": 33.7,
+      "PTS": 16,
+      "REB": 8.7,
+      "AST": 3.6,
+      "FGP": 51.1,
+      "TPP": 35.5,
+      "FTP": 72.8,
+      "STL": 1.2,
+      "BLK": 0.8,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 80,
+    "name": "Shaedon Sharpe",
+    "games": 32,
+    "team": "POR",
+    "stats": {
+      "MIN": 33.1,
+      "PTS": 15.9,
+      "REB": 5,
+      "AST": 2.9,
+      "FGP": 40.6,
+      "TPP": 33.3,
+      "FTP": 82.4,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 81,
+    "name": "Austin Reaves",
+    "games": 82,
+    "team": "LAL",
+    "stats": {
+      "MIN": 32.1,
+      "PTS": 15.9,
+      "REB": 4.3,
+      "AST": 5.5,
+      "FGP": 48.6,
+      "TPP": 36.7,
+      "FTP": 85.3,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 82,
+    "name": "Malcolm Brogdon",
+    "games": 39,
+    "team": "POR",
+    "stats": {
+      "MIN": 28.7,
+      "PTS": 15.7,
+      "REB": 3.8,
+      "AST": 5.5,
+      "FGP": 44,
+      "TPP": 41.2,
+      "FTP": 81.9,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 83,
+    "name": "Keldon Johnson",
+    "games": 69,
+    "team": "SAS",
+    "stats": {
+      "MIN": 29.5,
+      "PTS": 15.7,
+      "REB": 5.5,
+      "AST": 2.8,
+      "FGP": 45.4,
+      "TPP": 34.6,
+      "FTP": 79.2,
+      "STL": 0.7,
+      "BLK": 0.3,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 84,
+    "name": "Evan Mobley",
+    "games": 50,
+    "team": "CLE",
+    "stats": {
+      "MIN": 30.6,
+      "PTS": 15.7,
+      "REB": 9.4,
+      "AST": 3.2,
+      "FGP": 57.9,
+      "TPP": 37.3,
+      "FTP": 71.9,
+      "STL": 0.9,
+      "BLK": 1.4,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 85,
+    "name": "De'Andre Hunter",
+    "games": 57,
+    "team": "ATL",
+    "stats": {
+      "MIN": 29.5,
+      "PTS": 15.6,
+      "REB": 3.9,
+      "AST": 1.5,
+      "FGP": 45.9,
+      "TPP": 38.5,
+      "FTP": 84.7,
+      "STL": 0.7,
+      "BLK": 0.3,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 86,
+    "name": "Donte DiVincenzo",
+    "games": 81,
+    "team": "NYK",
+    "stats": {
+      "MIN": 29.1,
+      "PTS": 15.5,
+      "REB": 3.7,
+      "AST": 2.7,
+      "FGP": 44.3,
+      "TPP": 40.1,
+      "FTP": 75.4,
+      "STL": 1.3,
+      "BLK": 0.4,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 87,
+    "name": "Kelly Oubre Jr.",
+    "games": 68,
+    "team": "PHI",
+    "stats": {
+      "MIN": 30.2,
+      "PTS": 15.4,
+      "REB": 5,
+      "AST": 1.5,
+      "FGP": 44.1,
+      "TPP": 31.1,
+      "FTP": 75,
+      "STL": 1.1,
+      "BLK": 0.7,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 88,
+    "name": "Malik Monk",
+    "games": 72,
+    "team": "SAC",
+    "stats": {
+      "MIN": 26,
+      "PTS": 15.4,
+      "REB": 2.9,
+      "AST": 5.1,
+      "FGP": 44.3,
+      "TPP": 35,
+      "FTP": 82.9,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 89,
+    "name": "Jaden Ivey",
+    "games": 77,
+    "team": "DET",
+    "stats": {
+      "MIN": 28.8,
+      "PTS": 15.4,
+      "REB": 3.4,
+      "AST": 3.8,
+      "FGP": 42.9,
+      "TPP": 33.6,
+      "FTP": 74.9,
+      "STL": 0.7,
+      "BLK": 0.5,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 90,
+    "name": "Bojan Bogdanovic",
+    "games": 57,
+    "team": "NYK",
+    "stats": {
+      "MIN": 25.9,
+      "PTS": 15.2,
+      "REB": 2.7,
+      "AST": 1.7,
+      "FGP": 45.4,
+      "TPP": 39.8,
+      "FTP": 78.5,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 91,
+    "name": "Keegan Murray",
+    "games": 77,
+    "team": "SAC",
+    "stats": {
+      "MIN": 33.6,
+      "PTS": 15.2,
+      "REB": 5.5,
+      "AST": 1.7,
+      "FGP": 45.4,
+      "TPP": 35.8,
+      "FTP": 83.1,
+      "STL": 1,
+      "BLK": 0.8,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 92,
+    "name": "Derrick White",
+    "games": 73,
+    "team": "BOS",
+    "stats": {
+      "MIN": 32.6,
+      "PTS": 15.2,
+      "REB": 4.2,
+      "AST": 5.2,
+      "FGP": 46.1,
+      "TPP": 39.6,
+      "FTP": 90.1,
+      "STL": 1,
+      "BLK": 1.2,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 93,
+    "name": "John Collins",
+    "games": 68,
+    "team": "UTA",
+    "stats": {
+      "MIN": 28,
+      "PTS": 15.1,
+      "REB": 8.5,
+      "AST": 1.1,
+      "FGP": 53.2,
+      "TPP": 37.1,
+      "FTP": 79.5,
+      "STL": 0.6,
+      "BLK": 0.9,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 94,
+    "name": "Khris Middleton",
+    "games": 55,
+    "team": "MIL",
+    "stats": {
+      "MIN": 27,
+      "PTS": 15.1,
+      "REB": 4.7,
+      "AST": 5.3,
+      "FGP": 49.3,
+      "TPP": 38.1,
+      "FTP": 83.3,
+      "STL": 0.9,
+      "BLK": 0.3,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 95,
+    "name": "Trey Murphy III",
+    "games": 57,
+    "team": "NOP",
+    "stats": {
+      "MIN": 29.7,
+      "PTS": 14.8,
+      "REB": 4.9,
+      "AST": 2.2,
+      "FGP": 44.3,
+      "TPP": 38,
+      "FTP": 81.5,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 96,
+    "name": "Deni Avdija",
+    "games": 75,
+    "team": "WAS",
+    "stats": {
+      "MIN": 30.1,
+      "PTS": 14.7,
+      "REB": 7.2,
+      "AST": 3.8,
+      "FGP": 50.6,
+      "TPP": 37.4,
+      "FTP": 74,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 97,
+    "name": "OG Anunoby",
+    "games": 50,
+    "team": "NYK",
+    "stats": {
+      "MIN": 34,
+      "PTS": 14.7,
+      "REB": 4.2,
+      "AST": 2.1,
+      "FGP": 48.9,
+      "TPP": 38.2,
+      "FTP": 75.3,
+      "STL": 1.4,
+      "BLK": 0.7,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 98,
+    "name": "GG Jackson",
+    "games": 48,
+    "team": "MEM",
+    "stats": {
+      "MIN": 25.7,
+      "PTS": 14.6,
+      "REB": 4.1,
+      "AST": 1.2,
+      "FGP": 42.8,
+      "TPP": 35.7,
+      "FTP": 75.2,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 99,
+    "name": "Bennedict Mathurin",
+    "games": 59,
+    "team": "IND",
+    "stats": {
+      "MIN": 26.1,
+      "PTS": 14.5,
+      "REB": 4,
+      "AST": 2,
+      "FGP": 44.6,
+      "TPP": 37.4,
+      "FTP": 82.1,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 100,
+    "name": "Tim Hardaway Jr.",
+    "games": 79,
+    "team": "DAL",
+    "stats": {
+      "MIN": 26.8,
+      "PTS": 14.4,
+      "REB": 3.2,
+      "AST": 1.8,
+      "FGP": 40.2,
+      "TPP": 35.3,
+      "FTP": 85.2,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 101,
+    "name": "Dennis Schroder",
+    "games": 80,
+    "team": "BKN",
+    "stats": {
+      "MIN": 31.1,
+      "PTS": 14,
+      "REB": 3,
+      "AST": 6.1,
+      "FGP": 43.5,
+      "TPP": 37.5,
+      "FTP": 83.6,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 102,
+    "name": "Caris LeVert",
+    "games": 68,
+    "team": "CLE",
+    "stats": {
+      "MIN": 28.8,
+      "PTS": 14,
+      "REB": 4.1,
+      "AST": 5.1,
+      "FGP": 42.1,
+      "TPP": 32.5,
+      "FTP": 76.6,
+      "STL": 1.1,
+      "BLK": 0.5,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 103,
+    "name": "Scoot Henderson",
+    "games": 62,
+    "team": "POR",
+    "stats": {
+      "MIN": 28.5,
+      "PTS": 14,
+      "REB": 3.1,
+      "AST": 5.4,
+      "FGP": 38.5,
+      "TPP": 32.5,
+      "FTP": 81.9,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 3.4
+    }
+  },
+  {
+    "id": 104,
+    "name": "Rudy Gobert",
+    "games": 76,
+    "team": "MIN",
+    "stats": {
+      "MIN": 34.1,
+      "PTS": 14,
+      "REB": 12.9,
+      "AST": 1.3,
+      "FGP": 66.1,
+      "TPP": 0,
+      "FTP": 63.8,
+      "STL": 0.7,
+      "BLK": 2.1,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 105,
+    "name": "Norman Powell",
+    "games": 76,
+    "team": "LAC",
+    "stats": {
+      "MIN": 26.2,
+      "PTS": 13.9,
+      "REB": 2.6,
+      "AST": 1.1,
+      "FGP": 48.6,
+      "TPP": 43.5,
+      "FTP": 83.1,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 106,
+    "name": "Aaron Gordon",
+    "games": 73,
+    "team": "DEN",
+    "stats": {
+      "MIN": 31.5,
+      "PTS": 13.9,
+      "REB": 6.5,
+      "AST": 3.5,
+      "FGP": 55.6,
+      "TPP": 29,
+      "FTP": 65.8,
+      "STL": 0.8,
+      "BLK": 0.6,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 107,
+    "name": "Jalen Duren",
+    "games": 61,
+    "team": "DET",
+    "stats": {
+      "MIN": 29.1,
+      "PTS": 13.8,
+      "REB": 11.6,
+      "AST": 2.4,
+      "FGP": 61.9,
+      "TPP": 0,
+      "FTP": 79,
+      "STL": 0.5,
+      "BLK": 0.8,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 108,
+    "name": "Bobby Portis",
+    "games": 82,
+    "team": "MIL",
+    "stats": {
+      "MIN": 24.5,
+      "PTS": 13.8,
+      "REB": 7.4,
+      "AST": 1.3,
+      "FGP": 50.8,
+      "TPP": 40.7,
+      "FTP": 79,
+      "STL": 0.8,
+      "BLK": 0.4,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 109,
+    "name": "Jabari Smith Jr.",
+    "games": 76,
+    "team": "HOU",
+    "stats": {
+      "MIN": 31.9,
+      "PTS": 13.7,
+      "REB": 8.1,
+      "AST": 1.6,
+      "FGP": 45.4,
+      "TPP": 36.3,
+      "FTP": 81.1,
+      "STL": 0.7,
+      "BLK": 0.8,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 110,
+    "name": "Gary Trent Jr.",
+    "games": 71,
+    "team": "TOR",
+    "stats": {
+      "MIN": 28.1,
+      "PTS": 13.7,
+      "REB": 2.6,
+      "AST": 1.7,
+      "FGP": 42.6,
+      "TPP": 39.3,
+      "FTP": 77.1,
+      "STL": 1.1,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 111,
+    "name": "Saddiq Bey",
+    "games": 63,
+    "team": "ATL",
+    "stats": {
+      "MIN": 32.7,
+      "PTS": 13.7,
+      "REB": 6.5,
+      "AST": 1.5,
+      "FGP": 41.6,
+      "TPP": 31.6,
+      "FTP": 83.7,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 112,
+    "name": "Rui Hachimura",
+    "games": 68,
+    "team": "LAL",
+    "stats": {
+      "MIN": 26.8,
+      "PTS": 13.6,
+      "REB": 4.3,
+      "AST": 1.2,
+      "FGP": 53.7,
+      "TPP": 42.2,
+      "FTP": 73.9,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 113,
+    "name": "Grayson Allen",
+    "games": 75,
+    "team": "PHX",
+    "stats": {
+      "MIN": 33.5,
+      "PTS": 13.5,
+      "REB": 3.9,
+      "AST": 3,
+      "FGP": 49.9,
+      "TPP": 46.1,
+      "FTP": 87.8,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 114,
+    "name": "Naz Reid",
+    "games": 81,
+    "team": "MIN",
+    "stats": {
+      "MIN": 24.2,
+      "PTS": 13.5,
+      "REB": 5.2,
+      "AST": 1.3,
+      "FGP": 47.7,
+      "TPP": 41.4,
+      "FTP": 73.6,
+      "STL": 0.8,
+      "BLK": 0.9,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 115,
+    "name": "Cameron Johnson",
+    "games": 58,
+    "team": "BKN",
+    "stats": {
+      "MIN": 27.6,
+      "PTS": 13.4,
+      "REB": 4.3,
+      "AST": 2.4,
+      "FGP": 44.6,
+      "TPP": 39.1,
+      "FTP": 78.9,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 116,
+    "name": "Corey Kispert",
+    "games": 80,
+    "team": "WAS",
+    "stats": {
+      "MIN": 25.8,
+      "PTS": 13.4,
+      "REB": 2.8,
+      "AST": 2,
+      "FGP": 48.6,
+      "TPP": 38.3,
+      "FTP": 72.6,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 117,
+    "name": "Andrew Wiggins",
+    "games": 71,
+    "team": "GSW",
+    "stats": {
+      "MIN": 27,
+      "PTS": 13.2,
+      "REB": 4.5,
+      "AST": 1.7,
+      "FGP": 45.3,
+      "TPP": 35.8,
+      "FTP": 75.1,
+      "STL": 0.6,
+      "BLK": 0.6,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 118,
+    "name": "Keyonte George",
+    "games": 75,
+    "team": "UTA",
+    "stats": {
+      "MIN": 27,
+      "PTS": 13,
+      "REB": 2.8,
+      "AST": 4.4,
+      "FGP": 39.1,
+      "TPP": 33.4,
+      "FTP": 84.8,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 119,
+    "name": "Duncan Robinson",
+    "games": 68,
+    "team": "MIA",
+    "stats": {
+      "MIN": 28,
+      "PTS": 12.9,
+      "REB": 2.5,
+      "AST": 2.8,
+      "FGP": 45,
+      "TPP": 39.5,
+      "FTP": 88.9,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 120,
+    "name": "P.J. Washington",
+    "games": 73,
+    "team": "DAL",
+    "stats": {
+      "MIN": 30.4,
+      "PTS": 12.9,
+      "REB": 5.6,
+      "AST": 1.9,
+      "FGP": 43.6,
+      "TPP": 32,
+      "FTP": 68.3,
+      "STL": 1,
+      "BLK": 0.8,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 121,
+    "name": "Dillon Brooks",
+    "games": 72,
+    "team": "HOU",
+    "stats": {
+      "MIN": 30.9,
+      "PTS": 12.7,
+      "REB": 3.4,
+      "AST": 1.7,
+      "FGP": 42.8,
+      "TPP": 35.9,
+      "FTP": 84.4,
+      "STL": 0.9,
+      "BLK": 0.1,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 122,
+    "name": "Jalen Suggs",
+    "games": 75,
+    "team": "ORL",
+    "stats": {
+      "MIN": 27,
+      "PTS": 12.6,
+      "REB": 3.1,
+      "AST": 2.7,
+      "FGP": 47.1,
+      "TPP": 39.7,
+      "FTP": 75.6,
+      "STL": 1.4,
+      "BLK": 0.6,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 123,
+    "name": "Brook Lopez",
+    "games": 79,
+    "team": "MIL",
+    "stats": {
+      "MIN": 30.5,
+      "PTS": 12.5,
+      "REB": 5.2,
+      "AST": 1.6,
+      "FGP": 48.5,
+      "TPP": 36.6,
+      "FTP": 82.1,
+      "STL": 0.5,
+      "BLK": 2.4,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 124,
+    "name": "Jrue Holiday",
+    "games": 69,
+    "team": "BOS",
+    "stats": {
+      "MIN": 32.8,
+      "PTS": 12.5,
+      "REB": 5.4,
+      "AST": 4.8,
+      "FGP": 48,
+      "TPP": 42.9,
+      "FTP": 83.3,
+      "STL": 0.9,
+      "BLK": 0.8,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 125,
+    "name": "Josh Giddey",
+    "games": 80,
+    "team": "OKC",
+    "stats": {
+      "MIN": 25.1,
+      "PTS": 12.3,
+      "REB": 6.4,
+      "AST": 4.8,
+      "FGP": 47.5,
+      "TPP": 33.7,
+      "FTP": 80.6,
+      "STL": 0.7,
+      "BLK": 0.6,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 126,
+    "name": "Cam Whitmore",
+    "games": 47,
+    "team": "HOU",
+    "stats": {
+      "MIN": 18.7,
+      "PTS": 12.3,
+      "REB": 3.8,
+      "AST": 0.7,
+      "FGP": 45.4,
+      "TPP": 35.9,
+      "FTP": 67.9,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 127,
+    "name": "Jonas Valanciunas",
+    "games": 82,
+    "team": "NOP",
+    "stats": {
+      "MIN": 23.5,
+      "PTS": 12.2,
+      "REB": 8.8,
+      "AST": 2.1,
+      "FGP": 55.9,
+      "TPP": 30.8,
+      "FTP": 78.5,
+      "STL": 0.4,
+      "BLK": 0.8,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 128,
+    "name": "Harrison Barnes",
+    "games": 82,
+    "team": "SAC",
+    "stats": {
+      "MIN": 29,
+      "PTS": 12.2,
+      "REB": 3,
+      "AST": 1.2,
+      "FGP": 47.4,
+      "TPP": 38.7,
+      "FTP": 80.1,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 129,
+    "name": "Max Strus",
+    "games": 70,
+    "team": "CLE",
+    "stats": {
+      "MIN": 32,
+      "PTS": 12.2,
+      "REB": 4.8,
+      "AST": 4,
+      "FGP": 41.8,
+      "TPP": 35.1,
+      "FTP": 79.4,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 130,
+    "name": "Aaron Nesmith",
+    "games": 72,
+    "team": "IND",
+    "stats": {
+      "MIN": 27.7,
+      "PTS": 12.2,
+      "REB": 3.8,
+      "AST": 1.5,
+      "FGP": 49.6,
+      "TPP": 41.9,
+      "FTP": 78.1,
+      "STL": 0.9,
+      "BLK": 0.7,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 131,
+    "name": "Ayo Dosunmu",
+    "games": 76,
+    "team": "CHI",
+    "stats": {
+      "MIN": 29.1,
+      "PTS": 12.2,
+      "REB": 2.8,
+      "AST": 3.2,
+      "FGP": 50.1,
+      "TPP": 40.3,
+      "FTP": 81,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 132,
+    "name": "Buddy Hield",
+    "games": 84,
+    "team": "PHI",
+    "stats": {
+      "MIN": 25.7,
+      "PTS": 12.1,
+      "REB": 3.2,
+      "AST": 2.8,
+      "FGP": 43.6,
+      "TPP": 38.6,
+      "FTP": 88.1,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 133,
+    "name": "Tyus Jones",
+    "games": 66,
+    "team": "WAS",
+    "stats": {
+      "MIN": 29.3,
+      "PTS": 12,
+      "REB": 2.7,
+      "AST": 7.3,
+      "FGP": 48.9,
+      "TPP": 41.4,
+      "FTP": 80,
+      "STL": 1.1,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 134,
+    "name": "Jaime Jaquez Jr.",
+    "games": 75,
+    "team": "MIA",
+    "stats": {
+      "MIN": 28.2,
+      "PTS": 11.9,
+      "REB": 3.8,
+      "AST": 2.6,
+      "FGP": 48.9,
+      "TPP": 32.2,
+      "FTP": 81.1,
+      "STL": 1,
+      "BLK": 0.3,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 135,
+    "name": "Nic Claxton",
+    "games": 71,
+    "team": "BKN",
+    "stats": {
+      "MIN": 29.8,
+      "PTS": 11.8,
+      "REB": 9.9,
+      "AST": 2.1,
+      "FGP": 62.9,
+      "TPP": 20,
+      "FTP": 55.1,
+      "STL": 0.6,
+      "BLK": 2.1,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 136,
+    "name": "Ivica Zubac",
+    "games": 68,
+    "team": "LAC",
+    "stats": {
+      "MIN": 26.4,
+      "PTS": 11.7,
+      "REB": 9.2,
+      "AST": 1.4,
+      "FGP": 64.9,
+      "TPP": 0,
+      "FTP": 72.3,
+      "STL": 0.3,
+      "BLK": 1.2,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 137,
+    "name": "Marvin Bagley III",
+    "games": 50,
+    "team": "WAS",
+    "stats": {
+      "MIN": 21.1,
+      "PTS": 11.7,
+      "REB": 6.2,
+      "AST": 1.1,
+      "FGP": 58.6,
+      "TPP": 39.1,
+      "FTP": 76.2,
+      "STL": 0.4,
+      "BLK": 0.7,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 138,
+    "name": "Jeremy Sochan",
+    "games": 74,
+    "team": "SAS",
+    "stats": {
+      "MIN": 29.6,
+      "PTS": 11.6,
+      "REB": 6.4,
+      "AST": 3.4,
+      "FGP": 43.8,
+      "TPP": 30.8,
+      "FTP": 77.1,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 139,
+    "name": "Cole Anthony",
+    "games": 81,
+    "team": "ORL",
+    "stats": {
+      "MIN": 22.4,
+      "PTS": 11.6,
+      "REB": 3.8,
+      "AST": 2.9,
+      "FGP": 43.5,
+      "TPP": 33.8,
+      "FTP": 82.6,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 140,
+    "name": "Clint Capela",
+    "games": 73,
+    "team": "ATL",
+    "stats": {
+      "MIN": 25.8,
+      "PTS": 11.5,
+      "REB": 10.6,
+      "AST": 1.2,
+      "FGP": 57.1,
+      "TPP": 0,
+      "FTP": 63.1,
+      "STL": 0.6,
+      "BLK": 1.5,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 141,
+    "name": "Mike Conley",
+    "games": 76,
+    "team": "MIN",
+    "stats": {
+      "MIN": 28.9,
+      "PTS": 11.4,
+      "REB": 2.9,
+      "AST": 5.9,
+      "FGP": 45.7,
+      "TPP": 44.2,
+      "FTP": 91.1,
+      "STL": 1.2,
+      "BLK": 0.2,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 142,
+    "name": "Malik Beasley",
+    "games": 79,
+    "team": "MIL",
+    "stats": {
+      "MIN": 29.6,
+      "PTS": 11.3,
+      "REB": 3.7,
+      "AST": 1.4,
+      "FGP": 44.3,
+      "TPP": 41.3,
+      "FTP": 71.4,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 143,
+    "name": "Zach Collins",
+    "games": 69,
+    "team": "SAS",
+    "stats": {
+      "MIN": 22.1,
+      "PTS": 11.2,
+      "REB": 5.4,
+      "AST": 2.8,
+      "FGP": 48.4,
+      "TPP": 32,
+      "FTP": 75.3,
+      "STL": 0.5,
+      "BLK": 0.8,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 144,
+    "name": "Jakob Poeltl",
+    "games": 50,
+    "team": "TOR",
+    "stats": {
+      "MIN": 26.4,
+      "PTS": 11.1,
+      "REB": 8.6,
+      "AST": 2.5,
+      "FGP": 65.6,
+      "TPP": 0,
+      "FTP": 55.1,
+      "STL": 0.7,
+      "BLK": 1.5,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 145,
+    "name": "Russell Westbrook",
+    "games": 68,
+    "team": "LAC",
+    "stats": {
+      "MIN": 22.5,
+      "PTS": 11.1,
+      "REB": 5,
+      "AST": 4.5,
+      "FGP": 45.4,
+      "TPP": 27.3,
+      "FTP": 68.8,
+      "STL": 1.1,
+      "BLK": 0.3,
+      "TOV": 2.1
+    }
+  },
+  {
+    "id": 146,
+    "name": "De'Anthony Melton",
+    "games": 38,
+    "team": "PHI",
+    "stats": {
+      "MIN": 26.9,
+      "PTS": 11.1,
+      "REB": 3.7,
+      "AST": 3,
+      "FGP": 38.6,
+      "TPP": 36,
+      "FTP": 83.5,
+      "STL": 1.6,
+      "BLK": 0.4,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 147,
+    "name": "Eric Gordon",
+    "games": 68,
+    "team": "PHX",
+    "stats": {
+      "MIN": 27.8,
+      "PTS": 11,
+      "REB": 1.8,
+      "AST": 2,
+      "FGP": 44.3,
+      "TPP": 37.8,
+      "FTP": 79.7,
+      "STL": 1,
+      "BLK": 0.4,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 148,
+    "name": "Herbert Jones",
+    "games": 76,
+    "team": "NOP",
+    "stats": {
+      "MIN": 30.5,
+      "PTS": 11,
+      "REB": 3.6,
+      "AST": 2.6,
+      "FGP": 49.8,
+      "TPP": 41.8,
+      "FTP": 86.7,
+      "STL": 1.4,
+      "BLK": 0.8,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 149,
+    "name": "Daniel Gafford",
+    "games": 74,
+    "team": "DAL",
+    "stats": {
+      "MIN": 24.5,
+      "PTS": 11,
+      "REB": 7.6,
+      "AST": 1.6,
+      "FGP": 72.5,
+      "TPP": 0,
+      "FTP": 67.4,
+      "STL": 0.9,
+      "BLK": 2.1,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 150,
+    "name": "Luke Kennard",
+    "games": 39,
+    "team": "MEM",
+    "stats": {
+      "MIN": 25.6,
+      "PTS": 11,
+      "REB": 2.9,
+      "AST": 3.5,
+      "FGP": 44.8,
+      "TPP": 45,
+      "FTP": 88.9,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 151,
+    "name": "Wendell Carter Jr.",
+    "games": 55,
+    "team": "ORL",
+    "stats": {
+      "MIN": 25.6,
+      "PTS": 11,
+      "REB": 6.9,
+      "AST": 1.7,
+      "FGP": 52.5,
+      "TPP": 37.4,
+      "FTP": 69.4,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 152,
+    "name": "Isaiah Stewart",
+    "games": 46,
+    "team": "DET",
+    "stats": {
+      "MIN": 30.9,
+      "PTS": 10.9,
+      "REB": 6.6,
+      "AST": 1.6,
+      "FGP": 48.7,
+      "TPP": 38.3,
+      "FTP": 75.3,
+      "STL": 0.4,
+      "BLK": 0.8,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 153,
+    "name": "Jusuf Nurkic",
+    "games": 76,
+    "team": "PHX",
+    "stats": {
+      "MIN": 27.3,
+      "PTS": 10.9,
+      "REB": 11,
+      "AST": 4,
+      "FGP": 51,
+      "TPP": 24.4,
+      "FTP": 64,
+      "STL": 1.1,
+      "BLK": 1.1,
+      "TOV": 2.3
+    }
+  },
+  {
+    "id": 154,
+    "name": "Luguentz Dort",
+    "games": 79,
+    "team": "OKC",
+    "stats": {
+      "MIN": 28.4,
+      "PTS": 10.9,
+      "REB": 3.6,
+      "AST": 1.4,
+      "FGP": 43.8,
+      "TPP": 39.4,
+      "FTP": 82.6,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 155,
+    "name": "Moritz Wagner",
+    "games": 80,
+    "team": "ORL",
+    "stats": {
+      "MIN": 17.7,
+      "PTS": 10.9,
+      "REB": 4.3,
+      "AST": 1.2,
+      "FGP": 60.1,
+      "TPP": 33,
+      "FTP": 81.4,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 156,
+    "name": "Bruce Brown",
+    "games": 67,
+    "team": "TOR",
+    "stats": {
+      "MIN": 27.8,
+      "PTS": 10.8,
+      "REB": 4.2,
+      "AST": 2.9,
+      "FGP": 47.8,
+      "TPP": 32.3,
+      "FTP": 82.4,
+      "STL": 0.9,
+      "BLK": 0.3,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 157,
+    "name": "Jake LaRavia",
+    "games": 35,
+    "team": "MEM",
+    "stats": {
+      "MIN": 23,
+      "PTS": 10.8,
+      "REB": 3.7,
+      "AST": 1.7,
+      "FGP": 38.9,
+      "TPP": 34,
+      "FTP": 82.6,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 158,
+    "name": "Santi Aldama",
+    "games": 61,
+    "team": "MEM",
+    "stats": {
+      "MIN": 26.5,
+      "PTS": 10.7,
+      "REB": 5.8,
+      "AST": 2.3,
+      "FGP": 43.5,
+      "TPP": 34.9,
+      "FTP": 62.1,
+      "STL": 0.7,
+      "BLK": 0.9,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 159,
+    "name": "Jaden McDaniels",
+    "games": 72,
+    "team": "MIN",
+    "stats": {
+      "MIN": 29.2,
+      "PTS": 10.5,
+      "REB": 3.1,
+      "AST": 1.4,
+      "FGP": 48.9,
+      "TPP": 33.7,
+      "FTP": 72.2,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 160,
+    "name": "Simone Fontecchio",
+    "games": 66,
+    "team": "DET",
+    "stats": {
+      "MIN": 24.9,
+      "PTS": 10.5,
+      "REB": 3.7,
+      "AST": 1.5,
+      "FGP": 46,
+      "TPP": 40.1,
+      "FTP": 81.8,
+      "STL": 0.7,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 161,
+    "name": "Spencer Dinwiddie",
+    "games": 76,
+    "team": "LAL",
+    "stats": {
+      "MIN": 28.3,
+      "PTS": 10.5,
+      "REB": 2.7,
+      "AST": 4.7,
+      "FGP": 39.2,
+      "TPP": 33.7,
+      "FTP": 80.5,
+      "STL": 0.7,
+      "BLK": 0.3,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 162,
+    "name": "Alec Burks",
+    "games": 66,
+    "team": "NYK",
+    "stats": {
+      "MIN": 18.4,
+      "PTS": 10.4,
+      "REB": 2.3,
+      "AST": 1.3,
+      "FGP": 36.9,
+      "TPP": 37.6,
+      "FTP": 86.8,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 163,
+    "name": "Grant Williams",
+    "games": 76,
+    "team": "CHA",
+    "stats": {
+      "MIN": 28,
+      "PTS": 10.3,
+      "REB": 4.2,
+      "AST": 2.3,
+      "FGP": 45.6,
+      "TPP": 37.5,
+      "FTP": 75.7,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 164,
+    "name": "Dalano Banton",
+    "games": 54,
+    "team": "POR",
+    "stats": {
+      "MIN": 19.4,
+      "PTS": 10.3,
+      "REB": 3.3,
+      "AST": 2.4,
+      "FGP": 40.4,
+      "TPP": 29.6,
+      "FTP": 78.3,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 165,
+    "name": "Obi Toppin",
+    "games": 82,
+    "team": "IND",
+    "stats": {
+      "MIN": 21.1,
+      "PTS": 10.3,
+      "REB": 3.9,
+      "AST": 1.6,
+      "FGP": 57.3,
+      "TPP": 40.3,
+      "FTP": 77,
+      "STL": 0.6,
+      "BLK": 0.5,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 166,
+    "name": "T.J. McConnell",
+    "games": 71,
+    "team": "IND",
+    "stats": {
+      "MIN": 18.2,
+      "PTS": 10.2,
+      "REB": 2.7,
+      "AST": 5.5,
+      "FGP": 55.6,
+      "TPP": 40.9,
+      "FTP": 79,
+      "STL": 1,
+      "BLK": 0.1,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 167,
+    "name": "Kevin Huerter",
+    "games": 64,
+    "team": "SAC",
+    "stats": {
+      "MIN": 24.4,
+      "PTS": 10.2,
+      "REB": 3.5,
+      "AST": 2.6,
+      "FGP": 44.3,
+      "TPP": 36.1,
+      "FTP": 76.6,
+      "STL": 0.7,
+      "BLK": 0.4,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 168,
+    "name": "Onyeka Okongwu",
+    "games": 55,
+    "team": "ATL",
+    "stats": {
+      "MIN": 25.5,
+      "PTS": 10.2,
+      "REB": 6.8,
+      "AST": 1.3,
+      "FGP": 61.1,
+      "TPP": 33.3,
+      "FTP": 79.3,
+      "STL": 0.5,
+      "BLK": 1.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 169,
+    "name": "Reggie Jackson",
+    "games": 82,
+    "team": "DEN",
+    "stats": {
+      "MIN": 22.2,
+      "PTS": 10.2,
+      "REB": 1.9,
+      "AST": 3.8,
+      "FGP": 43.1,
+      "TPP": 35.9,
+      "FTP": 80.6,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 170,
+    "name": "Talen Horton-Tucker",
+    "games": 51,
+    "team": "UTA",
+    "stats": {
+      "MIN": 19.8,
+      "PTS": 10.1,
+      "REB": 2.4,
+      "AST": 3.5,
+      "FGP": 39.6,
+      "TPP": 33,
+      "FTP": 80.7,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 171,
+    "name": "Kentavious Caldwell-Pope",
+    "games": 76,
+    "team": "DEN",
+    "stats": {
+      "MIN": 31.6,
+      "PTS": 10.1,
+      "REB": 2.4,
+      "AST": 2.4,
+      "FGP": 46,
+      "TPP": 40.6,
+      "FTP": 89.4,
+      "STL": 1.3,
+      "BLK": 0.6,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 172,
+    "name": "Alex Caruso",
+    "games": 71,
+    "team": "CHI",
+    "stats": {
+      "MIN": 28.7,
+      "PTS": 10.1,
+      "REB": 3.8,
+      "AST": 3.5,
+      "FGP": 46.8,
+      "TPP": 40.8,
+      "FTP": 76,
+      "STL": 1.7,
+      "BLK": 1,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 173,
+    "name": "Vince Williams Jr.",
+    "games": 52,
+    "team": "MEM",
+    "stats": {
+      "MIN": 27.6,
+      "PTS": 10,
+      "REB": 5.6,
+      "AST": 3.4,
+      "FGP": 44.6,
+      "TPP": 37.8,
+      "FTP": 80,
+      "STL": 0.9,
+      "BLK": 0.7,
+      "TOV": 1.8
+    }
+  },
+  {
+    "id": 174,
+    "name": "Tre Jones",
+    "games": 77,
+    "team": "SAS",
+    "stats": {
+      "MIN": 27.8,
+      "PTS": 10,
+      "REB": 3.8,
+      "AST": 6.2,
+      "FGP": 50.5,
+      "TPP": 33.5,
+      "FTP": 85.6,
+      "STL": 1,
+      "BLK": 0.1,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 175,
+    "name": "Caleb Martin",
+    "games": 64,
+    "team": "MIA",
+    "stats": {
+      "MIN": 27.4,
+      "PTS": 10,
+      "REB": 4.4,
+      "AST": 2.2,
+      "FGP": 43.1,
+      "TPP": 34.9,
+      "FTP": 77.8,
+      "STL": 0.7,
+      "BLK": 0.5,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 176,
+    "name": "Patrick Williams",
+    "games": 43,
+    "team": "CHI",
+    "stats": {
+      "MIN": 27.3,
+      "PTS": 10,
+      "REB": 3.9,
+      "AST": 1.5,
+      "FGP": 44.3,
+      "TPP": 39.9,
+      "FTP": 78.8,
+      "STL": 0.9,
+      "BLK": 0.8,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 177,
+    "name": "Josh Richardson",
+    "games": 43,
+    "team": "MIA",
+    "stats": {
+      "MIN": 25.6,
+      "PTS": 9.9,
+      "REB": 2.8,
+      "AST": 2.4,
+      "FGP": 44.4,
+      "TPP": 34.7,
+      "FTP": 94.4,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 178,
+    "name": "Jalen Smith",
+    "games": 61,
+    "team": "IND",
+    "stats": {
+      "MIN": 17.2,
+      "PTS": 9.9,
+      "REB": 5.5,
+      "AST": 1,
+      "FGP": 59.2,
+      "TPP": 42.4,
+      "FTP": 69.2,
+      "STL": 0.3,
+      "BLK": 0.6,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 179,
+    "name": "Gordon Hayward",
+    "games": 51,
+    "team": "OKC",
+    "stats": {
+      "MIN": 24.4,
+      "PTS": 9.8,
+      "REB": 3.5,
+      "AST": 3.1,
+      "FGP": 46.4,
+      "TPP": 41.1,
+      "FTP": 74.2,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 180,
+    "name": "Kelly Olynyk",
+    "games": 78,
+    "team": "TOR",
+    "stats": {
+      "MIN": 22.5,
+      "PTS": 9.8,
+      "REB": 5.3,
+      "AST": 4.4,
+      "FGP": 55.5,
+      "TPP": 38.7,
+      "FTP": 83.3,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 1.9
+    }
+  },
+  {
+    "id": 181,
+    "name": "Lonnie Walker IV",
+    "games": 58,
+    "team": "BKN",
+    "stats": {
+      "MIN": 17.4,
+      "PTS": 9.7,
+      "REB": 2.2,
+      "AST": 1.3,
+      "FGP": 42.3,
+      "TPP": 38.4,
+      "FTP": 76.3,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 182,
+    "name": "Nick Richards",
+    "games": 67,
+    "team": "CHA",
+    "stats": {
+      "MIN": 26.2,
+      "PTS": 9.7,
+      "REB": 8,
+      "AST": 0.8,
+      "FGP": 69.1,
+      "TPP": 0,
+      "FTP": 73.7,
+      "STL": 0.4,
+      "BLK": 1.1,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 183,
+    "name": "Payton Pritchard",
+    "games": 82,
+    "team": "BOS",
+    "stats": {
+      "MIN": 22.3,
+      "PTS": 9.6,
+      "REB": 3.2,
+      "AST": 3.4,
+      "FGP": 46.8,
+      "TPP": 38.5,
+      "FTP": 82.1,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 184,
+    "name": "Amen Thompson",
+    "games": 62,
+    "team": "HOU",
+    "stats": {
+      "MIN": 22.4,
+      "PTS": 9.5,
+      "REB": 6.6,
+      "AST": 2.6,
+      "FGP": 53.6,
+      "TPP": 13.8,
+      "FTP": 68.4,
+      "STL": 1.3,
+      "BLK": 0.6,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 185,
+    "name": "Josh Hart",
+    "games": 81,
+    "team": "NYK",
+    "stats": {
+      "MIN": 33.4,
+      "PTS": 9.4,
+      "REB": 8.3,
+      "AST": 4.1,
+      "FGP": 43.4,
+      "TPP": 31,
+      "FTP": 79.1,
+      "STL": 0.9,
+      "BLK": 0.3,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 186,
+    "name": "Isaac Okoro",
+    "games": 69,
+    "team": "CLE",
+    "stats": {
+      "MIN": 27.3,
+      "PTS": 9.4,
+      "REB": 3,
+      "AST": 1.9,
+      "FGP": 49,
+      "TPP": 39.1,
+      "FTP": 67.9,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 187,
+    "name": "Georges Niang",
+    "games": 82,
+    "team": "CLE",
+    "stats": {
+      "MIN": 22.3,
+      "PTS": 9.4,
+      "REB": 3.4,
+      "AST": 1.2,
+      "FGP": 44.9,
+      "TPP": 37.6,
+      "FTP": 85,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 188,
+    "name": "Tre Mann",
+    "games": 41,
+    "team": "CHA",
+    "stats": {
+      "MIN": 24.1,
+      "PTS": 9.3,
+      "REB": 3.6,
+      "AST": 4,
+      "FGP": 45.9,
+      "TPP": 37.3,
+      "FTP": 76.3,
+      "STL": 1.2,
+      "BLK": 0.1,
+      "TOV": 1.6
+    }
+  },
+  {
+    "id": 189,
+    "name": "Brandin Podziemski",
+    "games": 74,
+    "team": "GSW",
+    "stats": {
+      "MIN": 26.6,
+      "PTS": 9.2,
+      "REB": 5.8,
+      "AST": 3.7,
+      "FGP": 45.4,
+      "TPP": 38.5,
+      "FTP": 63.3,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 190,
+    "name": "Andrew Nembhard",
+    "games": 68,
+    "team": "IND",
+    "stats": {
+      "MIN": 25,
+      "PTS": 9.2,
+      "REB": 2.1,
+      "AST": 4.1,
+      "FGP": 49.8,
+      "TPP": 35.7,
+      "FTP": 80.4,
+      "STL": 0.9,
+      "BLK": 0.1,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 191,
+    "name": "Malaki Branham",
+    "games": 75,
+    "team": "SAS",
+    "stats": {
+      "MIN": 21.3,
+      "PTS": 9.2,
+      "REB": 2,
+      "AST": 2.1,
+      "FGP": 43.2,
+      "TPP": 34.7,
+      "FTP": 87.3,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 192,
+    "name": "Chris Paul",
+    "games": 58,
+    "team": "GSW",
+    "stats": {
+      "MIN": 26.4,
+      "PTS": 9.2,
+      "REB": 3.9,
+      "AST": 6.8,
+      "FGP": 44.1,
+      "TPP": 37.1,
+      "FTP": 82.7,
+      "STL": 1.2,
+      "BLK": 0.1,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 193,
+    "name": "Duop Reath",
+    "games": 68,
+    "team": "POR",
+    "stats": {
+      "MIN": 17.9,
+      "PTS": 9.1,
+      "REB": 3.7,
+      "AST": 1,
+      "FGP": 46.1,
+      "TPP": 35.9,
+      "FTP": 74.2,
+      "STL": 0.5,
+      "BLK": 0.6,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 194,
+    "name": "Sam Hauser",
+    "games": 79,
+    "team": "BOS",
+    "stats": {
+      "MIN": 22,
+      "PTS": 9,
+      "REB": 3.5,
+      "AST": 1,
+      "FGP": 44.6,
+      "TPP": 42.4,
+      "FTP": 89.5,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 195,
+    "name": "Taurean Prince",
+    "games": 78,
+    "team": "LAL",
+    "stats": {
+      "MIN": 27,
+      "PTS": 8.9,
+      "REB": 2.9,
+      "AST": 1.5,
+      "FGP": 44.2,
+      "TPP": 39.6,
+      "FTP": 73.5,
+      "STL": 0.7,
+      "BLK": 0.4,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 196,
+    "name": "Jabari Walker",
+    "games": 72,
+    "team": "POR",
+    "stats": {
+      "MIN": 23.6,
+      "PTS": 8.9,
+      "REB": 7.1,
+      "AST": 1,
+      "FGP": 46,
+      "TPP": 29.5,
+      "FTP": 75.4,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 197,
+    "name": "Ausar Thompson",
+    "games": 63,
+    "team": "DET",
+    "stats": {
+      "MIN": 25.1,
+      "PTS": 8.8,
+      "REB": 6.4,
+      "AST": 1.9,
+      "FGP": 48.3,
+      "TPP": 18.6,
+      "FTP": 59.7,
+      "STL": 1.1,
+      "BLK": 0.9,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 198,
+    "name": "Kevin Love",
+    "games": 55,
+    "team": "MIA",
+    "stats": {
+      "MIN": 16.8,
+      "PTS": 8.8,
+      "REB": 6.1,
+      "AST": 2.1,
+      "FGP": 44,
+      "TPP": 34.4,
+      "FTP": 78.7,
+      "STL": 0.3,
+      "BLK": 0.2,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 199,
+    "name": "Dereck Lively II",
+    "games": 55,
+    "team": "DAL",
+    "stats": {
+      "MIN": 23.5,
+      "PTS": 8.8,
+      "REB": 6.9,
+      "AST": 1.1,
+      "FGP": 74.7,
+      "TPP": 0,
+      "FTP": 50.6,
+      "STL": 0.7,
+      "BLK": 1.4,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 200,
+    "name": "Terance Mann",
+    "games": 75,
+    "team": "LAC",
+    "stats": {
+      "MIN": 25,
+      "PTS": 8.8,
+      "REB": 3.4,
+      "AST": 1.6,
+      "FGP": 51.5,
+      "TPP": 34.8,
+      "FTP": 83.2,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 201,
+    "name": "Al Horford",
+    "games": 65,
+    "team": "BOS",
+    "stats": {
+      "MIN": 26.8,
+      "PTS": 8.6,
+      "REB": 6.4,
+      "AST": 2.6,
+      "FGP": 51.1,
+      "TPP": 41.9,
+      "FTP": 86.7,
+      "STL": 0.6,
+      "BLK": 1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 202,
+    "name": "Derrick Jones Jr.",
+    "games": 76,
+    "team": "DAL",
+    "stats": {
+      "MIN": 23.5,
+      "PTS": 8.6,
+      "REB": 3.3,
+      "AST": 1,
+      "FGP": 48.3,
+      "TPP": 34.3,
+      "FTP": 71.3,
+      "STL": 0.7,
+      "BLK": 0.7,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 203,
+    "name": "Draymond Green",
+    "games": 55,
+    "team": "GSW",
+    "stats": {
+      "MIN": 27.1,
+      "PTS": 8.6,
+      "REB": 7.2,
+      "AST": 6,
+      "FGP": 49.7,
+      "TPP": 39.5,
+      "FTP": 73,
+      "STL": 1,
+      "BLK": 0.9,
+      "TOV": 2.5
+    }
+  },
+  {
+    "id": 204,
+    "name": "Dorian Finney-Smith",
+    "games": 68,
+    "team": "BKN",
+    "stats": {
+      "MIN": 28.4,
+      "PTS": 8.5,
+      "REB": 4.7,
+      "AST": 1.6,
+      "FGP": 42.1,
+      "TPP": 34.8,
+      "FTP": 71.7,
+      "STL": 0.8,
+      "BLK": 0.6,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 205,
+    "name": "Gradey Dick",
+    "games": 60,
+    "team": "TOR",
+    "stats": {
+      "MIN": 21.1,
+      "PTS": 8.5,
+      "REB": 2.2,
+      "AST": 1.1,
+      "FGP": 42.5,
+      "TPP": 36.5,
+      "FTP": 86.3,
+      "STL": 0.6,
+      "BLK": 0,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 206,
+    "name": "Bilal Coulibaly",
+    "games": 63,
+    "team": "WAS",
+    "stats": {
+      "MIN": 27.2,
+      "PTS": 8.4,
+      "REB": 4.1,
+      "AST": 1.7,
+      "FGP": 43.5,
+      "TPP": 34.6,
+      "FTP": 70.2,
+      "STL": 0.9,
+      "BLK": 0.8,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 207,
+    "name": "Andre Drummond",
+    "games": 79,
+    "team": "CHI",
+    "stats": {
+      "MIN": 17.1,
+      "PTS": 8.4,
+      "REB": 9,
+      "AST": 0.5,
+      "FGP": 55.6,
+      "TPP": 0,
+      "FTP": 59.2,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 208,
+    "name": "Miles McBride",
+    "games": 68,
+    "team": "NYK",
+    "stats": {
+      "MIN": 19.5,
+      "PTS": 8.3,
+      "REB": 1.5,
+      "AST": 1.7,
+      "FGP": 45.2,
+      "TPP": 41,
+      "FTP": 86,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 209,
+    "name": "Marcus Sasser",
+    "games": 71,
+    "team": "DET",
+    "stats": {
+      "MIN": 19,
+      "PTS": 8.3,
+      "REB": 1.8,
+      "AST": 3.3,
+      "FGP": 42.8,
+      "TPP": 37.5,
+      "FTP": 87.9,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 210,
+    "name": "Ziaire Williams",
+    "games": 51,
+    "team": "MEM",
+    "stats": {
+      "MIN": 20.3,
+      "PTS": 8.2,
+      "REB": 3.5,
+      "AST": 1.5,
+      "FGP": 39.7,
+      "TPP": 30.7,
+      "FTP": 82.7,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 211,
+    "name": "Josh Green",
+    "games": 57,
+    "team": "DAL",
+    "stats": {
+      "MIN": 26.4,
+      "PTS": 8.2,
+      "REB": 3.2,
+      "AST": 2.3,
+      "FGP": 47.9,
+      "TPP": 38.5,
+      "FTP": 68.4,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 212,
+    "name": "Isaiah Joe",
+    "games": 78,
+    "team": "OKC",
+    "stats": {
+      "MIN": 18.5,
+      "PTS": 8.2,
+      "REB": 2.3,
+      "AST": 1.3,
+      "FGP": 45.8,
+      "TPP": 41.6,
+      "FTP": 86.5,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 213,
+    "name": "Kyle Lowry",
+    "games": 60,
+    "team": "PHI",
+    "stats": {
+      "MIN": 28.2,
+      "PTS": 8.1,
+      "REB": 3.2,
+      "AST": 4.2,
+      "FGP": 43.2,
+      "TPP": 39.2,
+      "FTP": 84,
+      "STL": 1,
+      "BLK": 0.4,
+      "TOV": 1.4
+    }
+  },
+  {
+    "id": 214,
+    "name": "Walker Kessler",
+    "games": 64,
+    "team": "UTA",
+    "stats": {
+      "MIN": 23.3,
+      "PTS": 8.1,
+      "REB": 7.5,
+      "AST": 0.9,
+      "FGP": 65.4,
+      "TPP": 21.1,
+      "FTP": 60.2,
+      "STL": 0.5,
+      "BLK": 2.4,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 215,
+    "name": "Moses Moody",
+    "games": 66,
+    "team": "GSW",
+    "stats": {
+      "MIN": 17.5,
+      "PTS": 8.1,
+      "REB": 3,
+      "AST": 0.9,
+      "FGP": 46.2,
+      "TPP": 36,
+      "FTP": 78.5,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 216,
+    "name": "Dario Saric",
+    "games": 64,
+    "team": "GSW",
+    "stats": {
+      "MIN": 17.2,
+      "PTS": 8,
+      "REB": 4.4,
+      "AST": 2.3,
+      "FGP": 46.6,
+      "TPP": 37.6,
+      "FTP": 84.9,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 217,
+    "name": "Nickeil Alexander-Walker",
+    "games": 82,
+    "team": "MIN",
+    "stats": {
+      "MIN": 23.4,
+      "PTS": 8,
+      "REB": 2,
+      "AST": 2.5,
+      "FGP": 43.9,
+      "TPP": 39.1,
+      "FTP": 80,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 218,
+    "name": "Sam Merrill",
+    "games": 61,
+    "team": "CLE",
+    "stats": {
+      "MIN": 17.5,
+      "PTS": 8,
+      "REB": 2,
+      "AST": 1.8,
+      "FGP": 40.2,
+      "TPP": 40.4,
+      "FTP": 92.9,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 219,
+    "name": "Trayce Jackson-Davis",
+    "games": 68,
+    "team": "GSW",
+    "stats": {
+      "MIN": 16.6,
+      "PTS": 7.9,
+      "REB": 5,
+      "AST": 1.2,
+      "FGP": 70.2,
+      "TPP": 0,
+      "FTP": 56.1,
+      "STL": 0.4,
+      "BLK": 1.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 220,
+    "name": "Jordan Hawkins",
+    "games": 67,
+    "team": "NOP",
+    "stats": {
+      "MIN": 17.3,
+      "PTS": 7.8,
+      "REB": 2.2,
+      "AST": 1,
+      "FGP": 38.2,
+      "TPP": 36.6,
+      "FTP": 83.8,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 221,
+    "name": "Markelle Fultz",
+    "games": 43,
+    "team": "ORL",
+    "stats": {
+      "MIN": 21.2,
+      "PTS": 7.8,
+      "REB": 3.2,
+      "AST": 2.8,
+      "FGP": 47.2,
+      "TPP": 22.2,
+      "FTP": 69.7,
+      "STL": 1,
+      "BLK": 0.3,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 222,
+    "name": "Dante Exum",
+    "games": 55,
+    "team": "DAL",
+    "stats": {
+      "MIN": 19.8,
+      "PTS": 7.8,
+      "REB": 2.7,
+      "AST": 2.9,
+      "FGP": 53.3,
+      "TPP": 49.1,
+      "FTP": 77.9,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 223,
+    "name": "Isaiah Hartenstein",
+    "games": 75,
+    "team": "NYK",
+    "stats": {
+      "MIN": 25.3,
+      "PTS": 7.8,
+      "REB": 8.3,
+      "AST": 2.5,
+      "FGP": 64.4,
+      "TPP": 33.3,
+      "FTP": 70.7,
+      "STL": 1.2,
+      "BLK": 1.1,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 224,
+    "name": "Royce O'Neale",
+    "games": 79,
+    "team": "PHX",
+    "stats": {
+      "MIN": 24.7,
+      "PTS": 7.7,
+      "REB": 4.8,
+      "AST": 2.8,
+      "FGP": 39.7,
+      "TPP": 37,
+      "FTP": 68.6,
+      "STL": 0.7,
+      "BLK": 0.6,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 225,
+    "name": "Nikola Jovic",
+    "games": 46,
+    "team": "MIA",
+    "stats": {
+      "MIN": 19.5,
+      "PTS": 7.7,
+      "REB": 4.2,
+      "AST": 2,
+      "FGP": 45.2,
+      "TPP": 39.9,
+      "FTP": 70.2,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 226,
+    "name": "Precious Achiuwa",
+    "games": 74,
+    "team": "NYK",
+    "stats": {
+      "MIN": 21.9,
+      "PTS": 7.6,
+      "REB": 6.6,
+      "AST": 1.3,
+      "FGP": 50.1,
+      "TPP": 26.8,
+      "FTP": 61.6,
+      "STL": 0.6,
+      "BLK": 0.9,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 227,
+    "name": "Brice Sensabaugh",
+    "games": 32,
+    "team": "UTA",
+    "stats": {
+      "MIN": 18.3,
+      "PTS": 7.5,
+      "REB": 3.2,
+      "AST": 1.7,
+      "FGP": 39,
+      "TPP": 29.6,
+      "FTP": 90.2,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 1.5
+    }
+  },
+  {
+    "id": 228,
+    "name": "Toumani Camara",
+    "games": 70,
+    "team": "POR",
+    "stats": {
+      "MIN": 24.8,
+      "PTS": 7.5,
+      "REB": 4.9,
+      "AST": 1.2,
+      "FGP": 45,
+      "TPP": 33.7,
+      "FTP": 75.8,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 229,
+    "name": "Cameron Payne",
+    "games": 78,
+    "team": "PHI",
+    "stats": {
+      "MIN": 16.7,
+      "PTS": 7.4,
+      "REB": 1.5,
+      "AST": 2.6,
+      "FGP": 43.2,
+      "TPP": 39,
+      "FTP": 86.6,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 230,
+    "name": "Christian Braun",
+    "games": 82,
+    "team": "DEN",
+    "stats": {
+      "MIN": 20.2,
+      "PTS": 7.3,
+      "REB": 3.7,
+      "AST": 1.6,
+      "FGP": 46,
+      "TPP": 38.4,
+      "FTP": 69.4,
+      "STL": 0.5,
+      "BLK": 0.4,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 231,
+    "name": "Paul Reed",
+    "games": 82,
+    "team": "PHI",
+    "stats": {
+      "MIN": 19.4,
+      "PTS": 7.3,
+      "REB": 6,
+      "AST": 1.3,
+      "FGP": 54,
+      "TPP": 36.8,
+      "FTP": 71.8,
+      "STL": 0.8,
+      "BLK": 1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 232,
+    "name": "Taylor Hendricks",
+    "games": 40,
+    "team": "UTA",
+    "stats": {
+      "MIN": 21.4,
+      "PTS": 7.3,
+      "REB": 4.6,
+      "AST": 0.8,
+      "FGP": 45,
+      "TPP": 37.9,
+      "FTP": 79.3,
+      "STL": 0.7,
+      "BLK": 0.8,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 233,
+    "name": "Jaden Hardy",
+    "games": 73,
+    "team": "DAL",
+    "stats": {
+      "MIN": 13.6,
+      "PTS": 7.3,
+      "REB": 1.8,
+      "AST": 1.5,
+      "FGP": 40.7,
+      "TPP": 36.2,
+      "FTP": 77.6,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 234,
+    "name": "Trey Lyles",
+    "games": 58,
+    "team": "SAC",
+    "stats": {
+      "MIN": 20,
+      "PTS": 7.2,
+      "REB": 4.4,
+      "AST": 1.2,
+      "FGP": 44.5,
+      "TPP": 38.4,
+      "FTP": 70,
+      "STL": 0.3,
+      "BLK": 0.3,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 235,
+    "name": "Kevin Knox II",
+    "games": 31,
+    "team": "DET",
+    "stats": {
+      "MIN": 18.1,
+      "PTS": 7.2,
+      "REB": 2.4,
+      "AST": 0.7,
+      "FGP": 46.2,
+      "TPP": 33,
+      "FTP": 90.9,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 236,
+    "name": "Lamar Stevens",
+    "games": 38,
+    "team": "MEM",
+    "stats": {
+      "MIN": 14.7,
+      "PTS": 7.2,
+      "REB": 3.3,
+      "AST": 0.7,
+      "FGP": 45,
+      "TPP": 30.4,
+      "FTP": 77.8,
+      "STL": 0.6,
+      "BLK": 0.6,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 237,
+    "name": "Landry Shamet",
+    "games": 46,
+    "team": "WAS",
+    "stats": {
+      "MIN": 15.8,
+      "PTS": 7.1,
+      "REB": 1.3,
+      "AST": 1.2,
+      "FGP": 43.1,
+      "TPP": 33.8,
+      "FTP": 82.6,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 238,
+    "name": "Jose Alvarado",
+    "games": 56,
+    "team": "NOP",
+    "stats": {
+      "MIN": 18.4,
+      "PTS": 7.1,
+      "REB": 2.3,
+      "AST": 2.1,
+      "FGP": 41.2,
+      "TPP": 37.7,
+      "FTP": 67.3,
+      "STL": 1.1,
+      "BLK": 0.3,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 239,
+    "name": "James Wiseman",
+    "games": 63,
+    "team": "DET",
+    "stats": {
+      "MIN": 17.3,
+      "PTS": 7.1,
+      "REB": 5.3,
+      "AST": 0.9,
+      "FGP": 61.3,
+      "TPP": 0,
+      "FTP": 70.6,
+      "STL": 0.2,
+      "BLK": 0.6,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 240,
+    "name": "Naji Marshall",
+    "games": 66,
+    "team": "NOP",
+    "stats": {
+      "MIN": 19,
+      "PTS": 7.1,
+      "REB": 3.6,
+      "AST": 1.9,
+      "FGP": 46.3,
+      "TPP": 38.7,
+      "FTP": 79.1,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 241,
+    "name": "Quentin Grimes",
+    "games": 51,
+    "team": "DET",
+    "stats": {
+      "MIN": 20.1,
+      "PTS": 7,
+      "REB": 2,
+      "AST": 1.3,
+      "FGP": 37.2,
+      "TPP": 33.8,
+      "FTP": 75.6,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 242,
+    "name": "Vasilije Micic",
+    "games": 60,
+    "team": "CHA",
+    "stats": {
+      "MIN": 19.6,
+      "PTS": 7,
+      "REB": 1.5,
+      "AST": 4.4,
+      "FGP": 43,
+      "TPP": 27.9,
+      "FTP": 81.3,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 1.7
+    }
+  },
+  {
+    "id": 243,
+    "name": "Jordan Nwora",
+    "games": 52,
+    "team": "TOR",
+    "stats": {
+      "MIN": 13.7,
+      "PTS": 7,
+      "REB": 2.9,
+      "AST": 1.2,
+      "FGP": 46.2,
+      "TPP": 33.6,
+      "FTP": 83,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 244,
+    "name": "Aaron Wiggins",
+    "games": 78,
+    "team": "OKC",
+    "stats": {
+      "MIN": 15.7,
+      "PTS": 6.9,
+      "REB": 2.4,
+      "AST": 1.1,
+      "FGP": 56.2,
+      "TPP": 49.2,
+      "FTP": 78.9,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 245,
+    "name": "Christian Wood",
+    "games": 50,
+    "team": "LAL",
+    "stats": {
+      "MIN": 17.4,
+      "PTS": 6.9,
+      "REB": 5.1,
+      "AST": 1,
+      "FGP": 46.6,
+      "TPP": 30.7,
+      "FTP": 70.2,
+      "STL": 0.3,
+      "BLK": 0.7,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 246,
+    "name": "Bones Hyland",
+    "games": 37,
+    "team": "LAC",
+    "stats": {
+      "MIN": 14.6,
+      "PTS": 6.9,
+      "REB": 1.5,
+      "AST": 2.5,
+      "FGP": 38.6,
+      "TPP": 32.6,
+      "FTP": 78.3,
+      "STL": 0.7,
+      "BLK": 0.1,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 247,
+    "name": "Gary Harris",
+    "games": 54,
+    "team": "ORL",
+    "stats": {
+      "MIN": 24,
+      "PTS": 6.9,
+      "REB": 1.7,
+      "AST": 1.6,
+      "FGP": 44.1,
+      "TPP": 37.1,
+      "FTP": 75.6,
+      "STL": 0.9,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 248,
+    "name": "Killian Hayes",
+    "games": 42,
+    "team": "DET",
+    "stats": {
+      "MIN": 24,
+      "PTS": 6.9,
+      "REB": 2.8,
+      "AST": 4.9,
+      "FGP": 41.3,
+      "TPP": 29.7,
+      "FTP": 66,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 249,
+    "name": "Evan Fournier",
+    "games": 32,
+    "team": "DET",
+    "stats": {
+      "MIN": 18.1,
+      "PTS": 6.9,
+      "REB": 1.8,
+      "AST": 1.5,
+      "FGP": 35.7,
+      "TPP": 25.4,
+      "FTP": 80.6,
+      "STL": 0.9,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 250,
+    "name": "Trendon Watford",
+    "games": 63,
+    "team": "BKN",
+    "stats": {
+      "MIN": 13.6,
+      "PTS": 6.9,
+      "REB": 3.1,
+      "AST": 1.3,
+      "FGP": 52.7,
+      "TPP": 39.7,
+      "FTP": 79.4,
+      "STL": 0.4,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 251,
+    "name": "Cason Wallace",
+    "games": 82,
+    "team": "OKC",
+    "stats": {
+      "MIN": 20.6,
+      "PTS": 6.8,
+      "REB": 2.3,
+      "AST": 1.5,
+      "FGP": 49.1,
+      "TPP": 41.9,
+      "FTP": 78.4,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 252,
+    "name": "Julian Champagnie",
+    "games": 74,
+    "team": "SAS",
+    "stats": {
+      "MIN": 19.8,
+      "PTS": 6.8,
+      "REB": 2.8,
+      "AST": 1.4,
+      "FGP": 40.8,
+      "TPP": 36.5,
+      "FTP": 81.5,
+      "STL": 0.6,
+      "BLK": 0.6,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 253,
+    "name": "Day'Ron Sharpe",
+    "games": 61,
+    "team": "BKN",
+    "stats": {
+      "MIN": 15.1,
+      "PTS": 6.8,
+      "REB": 6.4,
+      "AST": 1.4,
+      "FGP": 57.1,
+      "TPP": 26.7,
+      "FTP": 61,
+      "STL": 0.4,
+      "BLK": 0.7,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 254,
+    "name": "Cedi Osman",
+    "games": 72,
+    "team": "SAS",
+    "stats": {
+      "MIN": 17.6,
+      "PTS": 6.8,
+      "REB": 2.5,
+      "AST": 1.7,
+      "FGP": 47.9,
+      "TPP": 38.9,
+      "FTP": 67.3,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 255,
+    "name": "Jonathan Isaac",
+    "games": 58,
+    "team": "ORL",
+    "stats": {
+      "MIN": 15.8,
+      "PTS": 6.8,
+      "REB": 4.5,
+      "AST": 0.5,
+      "FGP": 51,
+      "TPP": 37.5,
+      "FTP": 72,
+      "STL": 0.7,
+      "BLK": 1.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 256,
+    "name": "Davis Bertans",
+    "games": 43,
+    "team": "CHA",
+    "stats": {
+      "MIN": 15.7,
+      "PTS": 6.7,
+      "REB": 1.4,
+      "AST": 0.8,
+      "FGP": 39.3,
+      "TPP": 38,
+      "FTP": 90.9,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 257,
+    "name": "Peyton Watson",
+    "games": 80,
+    "team": "DEN",
+    "stats": {
+      "MIN": 18.6,
+      "PTS": 6.7,
+      "REB": 3.2,
+      "AST": 1.1,
+      "FGP": 46.5,
+      "TPP": 29.6,
+      "FTP": 67,
+      "STL": 0.5,
+      "BLK": 1.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 258,
+    "name": "Amir Coffey",
+    "games": 70,
+    "team": "LAC",
+    "stats": {
+      "MIN": 20.9,
+      "PTS": 6.6,
+      "REB": 2.1,
+      "AST": 1.1,
+      "FGP": 47.2,
+      "TPP": 38,
+      "FTP": 85.9,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 259,
+    "name": "Aaron Holiday",
+    "games": 78,
+    "team": "HOU",
+    "stats": {
+      "MIN": 16.3,
+      "PTS": 6.6,
+      "REB": 1.6,
+      "AST": 1.8,
+      "FGP": 44.6,
+      "TPP": 38.7,
+      "FTP": 92.1,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 260,
+    "name": "Dennis Smith Jr.",
+    "games": 56,
+    "team": "BKN",
+    "stats": {
+      "MIN": 18.9,
+      "PTS": 6.6,
+      "REB": 2.9,
+      "AST": 3.6,
+      "FGP": 43.5,
+      "TPP": 29.4,
+      "FTP": 74.1,
+      "STL": 1.2,
+      "BLK": 0.2,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 261,
+    "name": "David Roddy",
+    "games": 65,
+    "team": "PHX",
+    "stats": {
+      "MIN": 18.1,
+      "PTS": 6.5,
+      "REB": 3.2,
+      "AST": 1.2,
+      "FGP": 40.3,
+      "TPP": 29.3,
+      "FTP": 69.1,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 262,
+    "name": "Jeff Green",
+    "games": 78,
+    "team": "HOU",
+    "stats": {
+      "MIN": 16.8,
+      "PTS": 6.5,
+      "REB": 2.3,
+      "AST": 0.9,
+      "FGP": 45.6,
+      "TPP": 33.1,
+      "FTP": 81.9,
+      "STL": 0.2,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 263,
+    "name": "Chimezie Metu",
+    "games": 51,
+    "team": "DET",
+    "stats": {
+      "MIN": 16.8,
+      "PTS": 6.5,
+      "REB": 3.8,
+      "AST": 0.9,
+      "FGP": 50.4,
+      "TPP": 29.8,
+      "FTP": 90.6,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 264,
+    "name": "Jordan Goodwin",
+    "games": 57,
+    "team": "MEM",
+    "stats": {
+      "MIN": 18.5,
+      "PTS": 6.5,
+      "REB": 4.4,
+      "AST": 2.7,
+      "FGP": 36.9,
+      "TPP": 29.8,
+      "FTP": 74.6,
+      "STL": 0.8,
+      "BLK": 0.3,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 265,
+    "name": "Marcus Morris Sr.",
+    "games": 49,
+    "team": "CLE",
+    "stats": {
+      "MIN": 16.7,
+      "PTS": 6.4,
+      "REB": 2.7,
+      "AST": 0.7,
+      "FGP": 43.9,
+      "TPP": 40.3,
+      "FTP": 81.8,
+      "STL": 0.3,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 266,
+    "name": "Chris Boucher",
+    "games": 50,
+    "team": "TOR",
+    "stats": {
+      "MIN": 14.1,
+      "PTS": 6.4,
+      "REB": 4.1,
+      "AST": 0.5,
+      "FGP": 50.7,
+      "TPP": 33,
+      "FTP": 77.2,
+      "STL": 0.3,
+      "BLK": 0.5,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 267,
+    "name": "Kyle Anderson",
+    "games": 79,
+    "team": "MIN",
+    "stats": {
+      "MIN": 22.6,
+      "PTS": 6.4,
+      "REB": 3.5,
+      "AST": 4.2,
+      "FGP": 46,
+      "TPP": 22.9,
+      "FTP": 70.8,
+      "STL": 0.9,
+      "BLK": 0.6,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 268,
+    "name": "Isaiah Jackson",
+    "games": 60,
+    "team": "IND",
+    "stats": {
+      "MIN": 12.8,
+      "PTS": 6.4,
+      "REB": 4,
+      "AST": 0.8,
+      "FGP": 66.5,
+      "TPP": 0,
+      "FTP": 71.6,
+      "STL": 0.6,
+      "BLK": 1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 269,
+    "name": "Jared Butler",
+    "games": 40,
+    "team": "WAS",
+    "stats": {
+      "MIN": 14.1,
+      "PTS": 6.3,
+      "REB": 1.5,
+      "AST": 3.2,
+      "FGP": 48.8,
+      "TPP": 30.8,
+      "FTP": 86.1,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 1.3
+    }
+  },
+  {
+    "id": 270,
+    "name": "Bruno Fernando",
+    "games": 45,
+    "team": "ATL",
+    "stats": {
+      "MIN": 15.2,
+      "PTS": 6.3,
+      "REB": 4.3,
+      "AST": 1,
+      "FGP": 58.3,
+      "TPP": 0,
+      "FTP": 66.7,
+      "STL": 0.6,
+      "BLK": 0.6,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 271,
+    "name": "Daniel Theis",
+    "games": 60,
+    "team": "LAC",
+    "stats": {
+      "MIN": 16.9,
+      "PTS": 6.3,
+      "REB": 4.1,
+      "AST": 1,
+      "FGP": 53.2,
+      "TPP": 36.6,
+      "FTP": 76,
+      "STL": 0.4,
+      "BLK": 0.9,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 272,
+    "name": "Jae Crowder",
+    "games": 50,
+    "team": "MIL",
+    "stats": {
+      "MIN": 23.1,
+      "PTS": 6.2,
+      "REB": 3.2,
+      "AST": 1.3,
+      "FGP": 42.2,
+      "TPP": 34.9,
+      "FTP": 72.2,
+      "STL": 0.8,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 273,
+    "name": "Patrick Beverley",
+    "games": 73,
+    "team": "MIL",
+    "stats": {
+      "MIN": 20,
+      "PTS": 6.2,
+      "REB": 3.3,
+      "AST": 2.9,
+      "FGP": 41.7,
+      "TPP": 33.7,
+      "FTP": 82.2,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 274,
+    "name": "Haywood Highsmith",
+    "games": 66,
+    "team": "MIA",
+    "stats": {
+      "MIN": 20.7,
+      "PTS": 6.1,
+      "REB": 3.2,
+      "AST": 1.1,
+      "FGP": 46.5,
+      "TPP": 39.6,
+      "FTP": 63.9,
+      "STL": 0.8,
+      "BLK": 0.5,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 275,
+    "name": "Kris Murray",
+    "games": 62,
+    "team": "POR",
+    "stats": {
+      "MIN": 21.7,
+      "PTS": 6.1,
+      "REB": 3.6,
+      "AST": 1.3,
+      "FGP": 39.6,
+      "TPP": 26.8,
+      "FTP": 66.1,
+      "STL": 0.9,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 276,
+    "name": "Nick Smith Jr.",
+    "games": 51,
+    "team": "CHA",
+    "stats": {
+      "MIN": 14.3,
+      "PTS": 5.9,
+      "REB": 1.4,
+      "AST": 1.2,
+      "FGP": 39.1,
+      "TPP": 43.2,
+      "FTP": 86.7,
+      "STL": 0.2,
+      "BLK": 0.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 277,
+    "name": "Ochai Agbaji",
+    "games": 78,
+    "team": "TOR",
+    "stats": {
+      "MIN": 21,
+      "PTS": 5.8,
+      "REB": 2.8,
+      "AST": 1.1,
+      "FGP": 41.1,
+      "TPP": 29.4,
+      "FTP": 66.1,
+      "STL": 0.6,
+      "BLK": 0.6,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 278,
+    "name": "Dyson Daniels",
+    "games": 61,
+    "team": "NOP",
+    "stats": {
+      "MIN": 22.3,
+      "PTS": 5.8,
+      "REB": 3.9,
+      "AST": 2.7,
+      "FGP": 44.7,
+      "TPP": 31.1,
+      "FTP": 64.2,
+      "STL": 1.4,
+      "BLK": 0.4,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 279,
+    "name": "Larry Nance Jr.",
+    "games": 61,
+    "team": "NOP",
+    "stats": {
+      "MIN": 19.9,
+      "PTS": 5.7,
+      "REB": 5,
+      "AST": 1.9,
+      "FGP": 57.3,
+      "TPP": 41.5,
+      "FTP": 77,
+      "STL": 1,
+      "BLK": 0.3,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 280,
+    "name": "Torrey Craig",
+    "games": 53,
+    "team": "CHI",
+    "stats": {
+      "MIN": 19.8,
+      "PTS": 5.7,
+      "REB": 4.1,
+      "AST": 1.1,
+      "FGP": 43,
+      "TPP": 39.2,
+      "FTP": 75,
+      "STL": 0.6,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 281,
+    "name": "Danilo Gallinari",
+    "games": 49,
+    "team": "MIL",
+    "stats": {
+      "MIN": 12.8,
+      "PTS": 5.7,
+      "REB": 2.2,
+      "AST": 1.1,
+      "FGP": 43.7,
+      "TPP": 32.3,
+      "FTP": 85.7,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 282,
+    "name": "Thomas Bryant",
+    "games": 38,
+    "team": "MIA",
+    "stats": {
+      "MIN": 11.6,
+      "PTS": 5.7,
+      "REB": 3.7,
+      "AST": 0.6,
+      "FGP": 57.7,
+      "TPP": 18.2,
+      "FTP": 87.2,
+      "STL": 0.3,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 283,
+    "name": "Pat Connaughton",
+    "games": 76,
+    "team": "MIL",
+    "stats": {
+      "MIN": 22.1,
+      "PTS": 5.6,
+      "REB": 3.1,
+      "AST": 2.1,
+      "FGP": 43.5,
+      "TPP": 34.5,
+      "FTP": 75.9,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 284,
+    "name": "Craig Porter Jr.",
+    "games": 51,
+    "team": "CLE",
+    "stats": {
+      "MIN": 12.7,
+      "PTS": 5.6,
+      "REB": 2.1,
+      "AST": 2.3,
+      "FGP": 50.9,
+      "TPP": 35.3,
+      "FTP": 73.2,
+      "STL": 0.4,
+      "BLK": 0.3,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 285,
+    "name": "Mitchell Robinson",
+    "games": 31,
+    "team": "NYK",
+    "stats": {
+      "MIN": 24.8,
+      "PTS": 5.6,
+      "REB": 8.5,
+      "AST": 0.6,
+      "FGP": 57.5,
+      "TPP": 0,
+      "FTP": 40.9,
+      "STL": 1.2,
+      "BLK": 1.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 286,
+    "name": "Malachi Flynn",
+    "games": 69,
+    "team": "DET",
+    "stats": {
+      "MIN": 12.7,
+      "PTS": 5.5,
+      "REB": 1.7,
+      "AST": 1.9,
+      "FGP": 41.8,
+      "TPP": 33.1,
+      "FTP": 73.2,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 287,
+    "name": "Doug McDermott",
+    "games": 64,
+    "team": "IND",
+    "stats": {
+      "MIN": 14.1,
+      "PTS": 5.5,
+      "REB": 0.9,
+      "AST": 1.1,
+      "FGP": 43.3,
+      "TPP": 41,
+      "FTP": 57.9,
+      "STL": 0.3,
+      "BLK": 0,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 288,
+    "name": "Gary Payton II",
+    "games": 44,
+    "team": "GSW",
+    "stats": {
+      "MIN": 15.5,
+      "PTS": 5.5,
+      "REB": 2.6,
+      "AST": 1.1,
+      "FGP": 56.3,
+      "TPP": 36.4,
+      "FTP": 60.9,
+      "STL": 0.9,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 289,
+    "name": "Matisse Thybulle",
+    "games": 65,
+    "team": "POR",
+    "stats": {
+      "MIN": 22.9,
+      "PTS": 5.4,
+      "REB": 2.1,
+      "AST": 1.4,
+      "FGP": 39.7,
+      "TPP": 34.6,
+      "FTP": 75.9,
+      "STL": 1.7,
+      "BLK": 0.8,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 290,
+    "name": "Keon Ellis",
+    "games": 57,
+    "team": "SAC",
+    "stats": {
+      "MIN": 17.2,
+      "PTS": 5.4,
+      "REB": 2.2,
+      "AST": 1.5,
+      "FGP": 46.1,
+      "TPP": 41.7,
+      "FTP": 74.3,
+      "STL": 0.9,
+      "BLK": 0.5,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 291,
+    "name": "Cam Reddish",
+    "games": 48,
+    "team": "LAL",
+    "stats": {
+      "MIN": 20.5,
+      "PTS": 5.4,
+      "REB": 2.1,
+      "AST": 1,
+      "FGP": 38.9,
+      "TPP": 33.6,
+      "FTP": 75.9,
+      "STL": 1,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 292,
+    "name": "Kris Dunn",
+    "games": 66,
+    "team": "UTA",
+    "stats": {
+      "MIN": 18.9,
+      "PTS": 5.4,
+      "REB": 2.9,
+      "AST": 3.8,
+      "FGP": 47,
+      "TPP": 36.9,
+      "FTP": 68.8,
+      "STL": 1,
+      "BLK": 0.4,
+      "TOV": 1.2
+    }
+  },
+  {
+    "id": 293,
+    "name": "Dean Wade",
+    "games": 54,
+    "team": "CLE",
+    "stats": {
+      "MIN": 20.5,
+      "PTS": 5.4,
+      "REB": 4,
+      "AST": 0.8,
+      "FGP": 41.4,
+      "TPP": 39.1,
+      "FTP": 76.9,
+      "STL": 0.7,
+      "BLK": 0.5,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 294,
+    "name": "Sasha Vezenkov",
+    "games": 42,
+    "team": "SAC",
+    "stats": {
+      "MIN": 12.2,
+      "PTS": 5.4,
+      "REB": 2.3,
+      "AST": 0.5,
+      "FGP": 44,
+      "TPP": 37.5,
+      "FTP": 80,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 295,
+    "name": "Nicolas Batum",
+    "games": 60,
+    "team": "PHI",
+    "stats": {
+      "MIN": 25.5,
+      "PTS": 5.3,
+      "REB": 4.1,
+      "AST": 2.1,
+      "FGP": 45.3,
+      "TPP": 39.5,
+      "FTP": 71.4,
+      "STL": 0.8,
+      "BLK": 0.6,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 296,
+    "name": "Mason Plumlee",
+    "games": 46,
+    "team": "LAC",
+    "stats": {
+      "MIN": 14.7,
+      "PTS": 5.3,
+      "REB": 5.1,
+      "AST": 1.2,
+      "FGP": 56.9,
+      "TPP": 0,
+      "FTP": 70.7,
+      "STL": 0.3,
+      "BLK": 0.4,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 297,
+    "name": "Luke Kornet",
+    "games": 63,
+    "team": "BOS",
+    "stats": {
+      "MIN": 15.6,
+      "PTS": 5.3,
+      "REB": 4.1,
+      "AST": 1.1,
+      "FGP": 70,
+      "TPP": 100,
+      "FTP": 90.7,
+      "STL": 0.4,
+      "BLK": 1,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 298,
+    "name": "Davion Mitchell",
+    "games": 72,
+    "team": "SAC",
+    "stats": {
+      "MIN": 15.3,
+      "PTS": 5.3,
+      "REB": 1.3,
+      "AST": 1.9,
+      "FGP": 45.2,
+      "TPP": 36.1,
+      "FTP": 71.4,
+      "STL": 0.2,
+      "BLK": 0,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 299,
+    "name": "Xavier Tillman",
+    "games": 54,
+    "team": "BOS",
+    "stats": {
+      "MIN": 18,
+      "PTS": 5.3,
+      "REB": 3.9,
+      "AST": 1.4,
+      "FGP": 43.4,
+      "TPP": 24.7,
+      "FTP": 44,
+      "STL": 0.9,
+      "BLK": 0.8,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 300,
+    "name": "Brandon Boston Jr.",
+    "games": 32,
+    "team": "LAC",
+    "stats": {
+      "MIN": 10.8,
+      "PTS": 5.2,
+      "REB": 1.6,
+      "AST": 0.4,
+      "FGP": 40.4,
+      "TPP": 26.9,
+      "FTP": 69.7,
+      "STL": 0.3,
+      "BLK": 0.3,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 301,
+    "name": "Bol Bol",
+    "games": 43,
+    "team": "PHX",
+    "stats": {
+      "MIN": 10.9,
+      "PTS": 5.2,
+      "REB": 3.2,
+      "AST": 0.4,
+      "FGP": 61.6,
+      "TPP": 42.3,
+      "FTP": 78.9,
+      "STL": 0.2,
+      "BLK": 0.6,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 302,
+    "name": "Seth Curry",
+    "games": 44,
+    "team": "CHA",
+    "stats": {
+      "MIN": 14,
+      "PTS": 5.1,
+      "REB": 1.5,
+      "AST": 1,
+      "FGP": 39.2,
+      "TPP": 35.2,
+      "FTP": 90.3,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 303,
+    "name": "Bryce McGowens",
+    "games": 59,
+    "team": "CHA",
+    "stats": {
+      "MIN": 14.9,
+      "PTS": 5.1,
+      "REB": 1.7,
+      "AST": 0.9,
+      "FGP": 43.9,
+      "TPP": 33.3,
+      "FTP": 77.6,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 304,
+    "name": "Drew Eubanks",
+    "games": 75,
+    "team": "PHX",
+    "stats": {
+      "MIN": 15.6,
+      "PTS": 5.1,
+      "REB": 4.3,
+      "AST": 0.8,
+      "FGP": 60.1,
+      "TPP": 100,
+      "FTP": 77.4,
+      "STL": 0.4,
+      "BLK": 0.8,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 305,
+    "name": "Goga Bitadze",
+    "games": 62,
+    "team": "ORL",
+    "stats": {
+      "MIN": 15.4,
+      "PTS": 5,
+      "REB": 4.6,
+      "AST": 1.3,
+      "FGP": 60.3,
+      "TPP": 14.3,
+      "FTP": 65.5,
+      "STL": 0.5,
+      "BLK": 1.2,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 306,
+    "name": "Jalen Wilson",
+    "games": 43,
+    "team": "BKN",
+    "stats": {
+      "MIN": 15.5,
+      "PTS": 5,
+      "REB": 3,
+      "AST": 1,
+      "FGP": 42.5,
+      "TPP": 32.4,
+      "FTP": 82.6,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 307,
+    "name": "Richaun Holmes",
+    "games": 40,
+    "team": "WAS",
+    "stats": {
+      "MIN": 13.9,
+      "PTS": 5,
+      "REB": 4.6,
+      "AST": 0.6,
+      "FGP": 55.8,
+      "TPP": 33.3,
+      "FTP": 72.3,
+      "STL": 0.3,
+      "BLK": 0.5,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 308,
+    "name": "Monte Morris",
+    "games": 33,
+    "team": "MIN",
+    "stats": {
+      "MIN": 14.4,
+      "PTS": 5,
+      "REB": 1.7,
+      "AST": 2.1,
+      "FGP": 40.5,
+      "TPP": 38.6,
+      "FTP": 68.4,
+      "STL": 0.6,
+      "BLK": 0.3,
+      "TOV": 0.2
+    }
+  },
+  {
+    "id": 309,
+    "name": "Jevon Carter",
+    "games": 72,
+    "team": "CHI",
+    "stats": {
+      "MIN": 13.9,
+      "PTS": 5,
+      "REB": 0.8,
+      "AST": 1.3,
+      "FGP": 37.8,
+      "TPP": 32.9,
+      "FTP": 57.1,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 310,
+    "name": "Garrison Mathews",
+    "games": 66,
+    "team": "ATL",
+    "stats": {
+      "MIN": 15,
+      "PTS": 4.9,
+      "REB": 1.4,
+      "AST": 0.6,
+      "FGP": 45.6,
+      "TPP": 44,
+      "FTP": 81,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 311,
+    "name": "Jock Landale",
+    "games": 56,
+    "team": "HOU",
+    "stats": {
+      "MIN": 13.6,
+      "PTS": 4.9,
+      "REB": 3.1,
+      "AST": 1.2,
+      "FGP": 51.5,
+      "TPP": 25,
+      "FTP": 80,
+      "STL": 0.4,
+      "BLK": 0.6,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 312,
+    "name": "Kenrich Williams",
+    "games": 69,
+    "team": "OKC",
+    "stats": {
+      "MIN": 14.9,
+      "PTS": 4.7,
+      "REB": 3,
+      "AST": 1.3,
+      "FGP": 46.8,
+      "TPP": 39.7,
+      "FTP": 50,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 313,
+    "name": "Omer Yurtseven",
+    "games": 48,
+    "team": "UTA",
+    "stats": {
+      "MIN": 11.4,
+      "PTS": 4.6,
+      "REB": 4.3,
+      "AST": 0.6,
+      "FGP": 53.8,
+      "TPP": 20.8,
+      "FTP": 67.9,
+      "STL": 0.2,
+      "BLK": 0.4,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 314,
+    "name": "Josh Okogie",
+    "games": 60,
+    "team": "PHX",
+    "stats": {
+      "MIN": 16,
+      "PTS": 4.6,
+      "REB": 2.6,
+      "AST": 1.1,
+      "FGP": 41.7,
+      "TPP": 30.9,
+      "FTP": 74.5,
+      "STL": 0.8,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 315,
+    "name": "Anthony Black",
+    "games": 69,
+    "team": "ORL",
+    "stats": {
+      "MIN": 16.9,
+      "PTS": 4.6,
+      "REB": 2,
+      "AST": 1.3,
+      "FGP": 46.6,
+      "TPP": 39.4,
+      "FTP": 61.3,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 316,
+    "name": "Julian Strawther",
+    "games": 50,
+    "team": "DEN",
+    "stats": {
+      "MIN": 10.9,
+      "PTS": 4.5,
+      "REB": 1.2,
+      "AST": 0.9,
+      "FGP": 36.9,
+      "TPP": 29.7,
+      "FTP": 71,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 317,
+    "name": "Kevon Looney",
+    "games": 74,
+    "team": "GSW",
+    "stats": {
+      "MIN": 16.1,
+      "PTS": 4.5,
+      "REB": 5.7,
+      "AST": 1.8,
+      "FGP": 59.7,
+      "TPP": 0,
+      "FTP": 67.5,
+      "STL": 0.4,
+      "BLK": 0.4,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 318,
+    "name": "AJ Green",
+    "games": 56,
+    "team": "MIL",
+    "stats": {
+      "MIN": 11,
+      "PTS": 4.5,
+      "REB": 1.1,
+      "AST": 0.5,
+      "FGP": 42.3,
+      "TPP": 40.8,
+      "FTP": 89.5,
+      "STL": 0.2,
+      "BLK": 0.1,
+      "TOV": 0.2
+    }
+  },
+  {
+    "id": 319,
+    "name": "Shake Milton",
+    "games": 48,
+    "team": "NYK",
+    "stats": {
+      "MIN": 12.1,
+      "PTS": 4.5,
+      "REB": 1.6,
+      "AST": 1.3,
+      "FGP": 40.5,
+      "TPP": 28.1,
+      "FTP": 81.6,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 320,
+    "name": "Delon Wright",
+    "games": 47,
+    "team": "MIA",
+    "stats": {
+      "MIN": 15.8,
+      "PTS": 4.5,
+      "REB": 1.8,
+      "AST": 2.5,
+      "FGP": 39.4,
+      "TPP": 36.8,
+      "FTP": 82.2,
+      "STL": 1.1,
+      "BLK": 0.2,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 321,
+    "name": "Maxi Kleber",
+    "games": 43,
+    "team": "DAL",
+    "stats": {
+      "MIN": 20.3,
+      "PTS": 4.4,
+      "REB": 3.3,
+      "AST": 1.6,
+      "FGP": 43.2,
+      "TPP": 34.8,
+      "FTP": 70.2,
+      "STL": 0.4,
+      "BLK": 0.7,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 322,
+    "name": "Mo Bamba",
+    "games": 57,
+    "team": "PHI",
+    "stats": {
+      "MIN": 13,
+      "PTS": 4.4,
+      "REB": 4.2,
+      "AST": 0.7,
+      "FGP": 49,
+      "TPP": 39.1,
+      "FTP": 68,
+      "STL": 0.4,
+      "BLK": 1.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 323,
+    "name": "Lester Quinones",
+    "games": 37,
+    "team": "GSW",
+    "stats": {
+      "MIN": 10.7,
+      "PTS": 4.4,
+      "REB": 1.9,
+      "AST": 1,
+      "FGP": 39.7,
+      "TPP": 36.4,
+      "FTP": 69,
+      "STL": 0.2,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 324,
+    "name": "Ben Sheppard",
+    "games": 57,
+    "team": "IND",
+    "stats": {
+      "MIN": 14.3,
+      "PTS": 4.4,
+      "REB": 1.6,
+      "AST": 0.9,
+      "FGP": 39.3,
+      "TPP": 31.4,
+      "FTP": 88.5,
+      "STL": 0.6,
+      "BLK": 0,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 325,
+    "name": "Patrick Baldwin Jr.",
+    "games": 38,
+    "team": "WAS",
+    "stats": {
+      "MIN": 13,
+      "PTS": 4.4,
+      "REB": 3.2,
+      "AST": 0.8,
+      "FGP": 38.1,
+      "TPP": 32,
+      "FTP": 67.9,
+      "STL": 0.5,
+      "BLK": 0.4,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 326,
+    "name": "MarJon Beauchamp",
+    "games": 48,
+    "team": "MIL",
+    "stats": {
+      "MIN": 12.7,
+      "PTS": 4.4,
+      "REB": 2.1,
+      "AST": 0.6,
+      "FGP": 48.8,
+      "TPP": 40,
+      "FTP": 67.9,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 327,
+    "name": "Blake Wesley",
+    "games": 61,
+    "team": "SAS",
+    "stats": {
+      "MIN": 14.4,
+      "PTS": 4.4,
+      "REB": 1.5,
+      "AST": 2.7,
+      "FGP": 47.4,
+      "TPP": 21.8,
+      "FTP": 66.7,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.9
+    }
+  },
+  {
+    "id": 328,
+    "name": "Dominick Barlow",
+    "games": 33,
+    "team": "SAS",
+    "stats": {
+      "MIN": 12.7,
+      "PTS": 4.4,
+      "REB": 3.4,
+      "AST": 1.1,
+      "FGP": 49.6,
+      "TPP": 33.3,
+      "FTP": 69,
+      "STL": 0.4,
+      "BLK": 0.4,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 329,
+    "name": "Joe Ingles",
+    "games": 68,
+    "team": "ORL",
+    "stats": {
+      "MIN": 17.2,
+      "PTS": 4.4,
+      "REB": 2.1,
+      "AST": 3,
+      "FGP": 43.6,
+      "TPP": 43.5,
+      "FTP": 82.4,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 1
+    }
+  },
+  {
+    "id": 330,
+    "name": "Bismack Biyombo",
+    "games": 40,
+    "team": "OKC",
+    "stats": {
+      "MIN": 19.8,
+      "PTS": 4.4,
+      "REB": 5.2,
+      "AST": 1.3,
+      "FGP": 56.5,
+      "TPP": 0,
+      "FTP": 48.1,
+      "STL": 0.3,
+      "BLK": 0.9,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 331,
+    "name": "Jaxson Hayes",
+    "games": 70,
+    "team": "LAL",
+    "stats": {
+      "MIN": 12.5,
+      "PTS": 4.3,
+      "REB": 3,
+      "AST": 0.5,
+      "FGP": 72,
+      "TPP": 0,
+      "FTP": 62.2,
+      "STL": 0.5,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 332,
+    "name": "Caleb Houstan",
+    "games": 59,
+    "team": "ORL",
+    "stats": {
+      "MIN": 13.8,
+      "PTS": 4.3,
+      "REB": 1.4,
+      "AST": 0.5,
+      "FGP": 38.8,
+      "TPP": 37.3,
+      "FTP": 80.8,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 333,
+    "name": "John Konchar",
+    "games": 55,
+    "team": "MEM",
+    "stats": {
+      "MIN": 21.3,
+      "PTS": 4.3,
+      "REB": 4.7,
+      "AST": 2,
+      "FGP": 42.3,
+      "TPP": 31.7,
+      "FTP": 84,
+      "STL": 0.9,
+      "BLK": 0.9,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 334,
+    "name": "Max Christie",
+    "games": 67,
+    "team": "LAL",
+    "stats": {
+      "MIN": 14.1,
+      "PTS": 4.2,
+      "REB": 2.1,
+      "AST": 0.9,
+      "FGP": 42.7,
+      "TPP": 35.6,
+      "FTP": 78.3,
+      "STL": 0.3,
+      "BLK": 0.3,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 335,
+    "name": "Danuel House Jr.",
+    "games": 34,
+    "team": "PHI",
+    "stats": {
+      "MIN": 15,
+      "PTS": 4.2,
+      "REB": 1.7,
+      "AST": 0.8,
+      "FGP": 44.8,
+      "TPP": 30,
+      "FTP": 76.1,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 336,
+    "name": "Jacob Gilyard",
+    "games": 41,
+    "team": "BKN",
+    "stats": {
+      "MIN": 17,
+      "PTS": 4.2,
+      "REB": 1.1,
+      "AST": 3.3,
+      "FGP": 40,
+      "TPP": 40.5,
+      "FTP": 100,
+      "STL": 0.8,
+      "BLK": 0.1,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 337,
+    "name": "Troy Brown Jr.",
+    "games": 59,
+    "team": "DET",
+    "stats": {
+      "MIN": 14,
+      "PTS": 4.2,
+      "REB": 2.4,
+      "AST": 1,
+      "FGP": 37.2,
+      "TPP": 33.3,
+      "FTP": 86.5,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 338,
+    "name": "Thaddeus Young",
+    "games": 33,
+    "team": "PHX",
+    "stats": {
+      "MIN": 13.3,
+      "PTS": 4.2,
+      "REB": 3.1,
+      "AST": 1.7,
+      "FGP": 60.2,
+      "TPP": 14.3,
+      "FTP": 40,
+      "STL": 0.7,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 339,
+    "name": "Skylar Mays",
+    "games": 38,
+    "team": "LAL",
+    "stats": {
+      "MIN": 11.4,
+      "PTS": 4.1,
+      "REB": 1.1,
+      "AST": 2.2,
+      "FGP": 39.6,
+      "TPP": 29.6,
+      "FTP": 76.5,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 340,
+    "name": "Jae'Sean Tate",
+    "games": 65,
+    "team": "HOU",
+    "stats": {
+      "MIN": 15.9,
+      "PTS": 4.1,
+      "REB": 3,
+      "AST": 1,
+      "FGP": 47.2,
+      "TPP": 29.9,
+      "FTP": 66.7,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 341,
+    "name": "Justin Holiday",
+    "games": 58,
+    "team": "DEN",
+    "stats": {
+      "MIN": 14.9,
+      "PTS": 4,
+      "REB": 1.2,
+      "AST": 1.2,
+      "FGP": 45.4,
+      "TPP": 40.4,
+      "FTP": 75,
+      "STL": 0.6,
+      "BLK": 0.2,
+      "TOV": 0.2
+    }
+  },
+  {
+    "id": 342,
+    "name": "Ousmane Dieng",
+    "games": 33,
+    "team": "OKC",
+    "stats": {
+      "MIN": 11.1,
+      "PTS": 4,
+      "REB": 1.5,
+      "AST": 1.1,
+      "FGP": 42.2,
+      "TPP": 30,
+      "FTP": 87.5,
+      "STL": 0.2,
+      "BLK": 0.2,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 343,
+    "name": "Jaylin Williams",
+    "games": 69,
+    "team": "OKC",
+    "stats": {
+      "MIN": 13,
+      "PTS": 4,
+      "REB": 3.4,
+      "AST": 1.6,
+      "FGP": 41.7,
+      "TPP": 36.8,
+      "FTP": 80.5,
+      "STL": 0.4,
+      "BLK": 0.4,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 344,
+    "name": "Rayan Rupert",
+    "games": 39,
+    "team": "POR",
+    "stats": {
+      "MIN": 16.2,
+      "PTS": 4,
+      "REB": 2.4,
+      "AST": 1.6,
+      "FGP": 33.5,
+      "TPP": 35.9,
+      "FTP": 76,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.8
+    }
+  },
+  {
+    "id": 345,
+    "name": "Patty Mills",
+    "games": 32,
+    "team": "MIA",
+    "stats": {
+      "MIN": 13,
+      "PTS": 4,
+      "REB": 1.1,
+      "AST": 1.1,
+      "FGP": 35.1,
+      "TPP": 27.6,
+      "FTP": 100,
+      "STL": 0.6,
+      "BLK": 0,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 346,
+    "name": "Svi Mykhailiuk",
+    "games": 41,
+    "team": "BOS",
+    "stats": {
+      "MIN": 10.1,
+      "PTS": 4,
+      "REB": 1.2,
+      "AST": 0.9,
+      "FGP": 41.6,
+      "TPP": 38.9,
+      "FTP": 66.7,
+      "STL": 0.3,
+      "BLK": 0,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 347,
+    "name": "DeAndre Jordan",
+    "games": 36,
+    "team": "DEN",
+    "stats": {
+      "MIN": 11,
+      "PTS": 3.9,
+      "REB": 4.4,
+      "AST": 0.7,
+      "FGP": 62.4,
+      "TPP": 0,
+      "FTP": 49.1,
+      "STL": 0.2,
+      "BLK": 0.4,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 348,
+    "name": "Chris Duarte",
+    "games": 59,
+    "team": "SAC",
+    "stats": {
+      "MIN": 12.2,
+      "PTS": 3.9,
+      "REB": 1.8,
+      "AST": 0.7,
+      "FGP": 38.1,
+      "TPP": 34.6,
+      "FTP": 78.8,
+      "STL": 0.5,
+      "BLK": 0.1,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 349,
+    "name": "KJ Martin",
+    "games": 60,
+    "team": "PHI",
+    "stats": {
+      "MIN": 12.4,
+      "PTS": 3.7,
+      "REB": 2.2,
+      "AST": 0.9,
+      "FGP": 53.6,
+      "TPP": 28.6,
+      "FTP": 53.7,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 350,
+    "name": "Keita Bates-Diop",
+    "games": 53,
+    "team": "BKN",
+    "stats": {
+      "MIN": 12.5,
+      "PTS": 3.7,
+      "REB": 2.1,
+      "AST": 0.7,
+      "FGP": 43.4,
+      "TPP": 30.4,
+      "FTP": 76.2,
+      "STL": 0.5,
+      "BLK": 0.4,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 351,
+    "name": "Oshae Brissett",
+    "games": 55,
+    "team": "BOS",
+    "stats": {
+      "MIN": 11.5,
+      "PTS": 3.7,
+      "REB": 2.9,
+      "AST": 0.8,
+      "FGP": 44.4,
+      "TPP": 27.3,
+      "FTP": 60.2,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 352,
+    "name": "Jarace Walker",
+    "games": 33,
+    "team": "IND",
+    "stats": {
+      "MIN": 10.3,
+      "PTS": 3.6,
+      "REB": 1.9,
+      "AST": 1.2,
+      "FGP": 40.9,
+      "TPP": 40,
+      "FTP": 88.9,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 353,
+    "name": "Jordan McLaughlin",
+    "games": 56,
+    "team": "MIN",
+    "stats": {
+      "MIN": 11.2,
+      "PTS": 3.5,
+      "REB": 1.3,
+      "AST": 2,
+      "FGP": 48.3,
+      "TPP": 47.2,
+      "FTP": 72.2,
+      "STL": 0.6,
+      "BLK": 0.1,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 354,
+    "name": "Yuta Watanabe",
+    "games": 34,
+    "team": "MEM",
+    "stats": {
+      "MIN": 13.7,
+      "PTS": 3.4,
+      "REB": 1.6,
+      "AST": 0.4,
+      "FGP": 35.3,
+      "TPP": 29.4,
+      "FTP": 58.8,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 355,
+    "name": "Jalen McDaniels",
+    "games": 50,
+    "team": "TOR",
+    "stats": {
+      "MIN": 10.8,
+      "PTS": 3.4,
+      "REB": 1.6,
+      "AST": 0.7,
+      "FGP": 34.4,
+      "TPP": 16.9,
+      "FTP": 73,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 356,
+    "name": "Nassir Little",
+    "games": 45,
+    "team": "PHX",
+    "stats": {
+      "MIN": 10.2,
+      "PTS": 3.4,
+      "REB": 1.7,
+      "AST": 0.5,
+      "FGP": 46,
+      "TPP": 30,
+      "FTP": 85,
+      "STL": 0.2,
+      "BLK": 0.2,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 357,
+    "name": "Jaden Springer",
+    "games": 49,
+    "team": "BOS",
+    "stats": {
+      "MIN": 10.3,
+      "PTS": 3.3,
+      "REB": 1.6,
+      "AST": 0.9,
+      "FGP": 39.9,
+      "TPP": 20.8,
+      "FTP": 83.3,
+      "STL": 0.7,
+      "BLK": 0.3,
+      "TOV": 0.7
+    }
+  },
+  {
+    "id": 358,
+    "name": "Dwight Powell",
+    "games": 63,
+    "team": "DAL",
+    "stats": {
+      "MIN": 13.3,
+      "PTS": 3.3,
+      "REB": 3.4,
+      "AST": 1.3,
+      "FGP": 67.9,
+      "TPP": 33.3,
+      "FTP": 70.8,
+      "STL": 0.4,
+      "BLK": 0.3,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 359,
+    "name": "Tristan Thompson",
+    "games": 49,
+    "team": "CLE",
+    "stats": {
+      "MIN": 11.2,
+      "PTS": 3.3,
+      "REB": 3.6,
+      "AST": 1,
+      "FGP": 61.3,
+      "TPP": 0,
+      "FTP": 28.8,
+      "STL": 0.2,
+      "BLK": 0.3,
+      "TOV": 0.6
+    }
+  },
+  {
+    "id": 360,
+    "name": "Ish Smith",
+    "games": 43,
+    "team": "CHA",
+    "stats": {
+      "MIN": 17.2,
+      "PTS": 3.2,
+      "REB": 1.8,
+      "AST": 3.4,
+      "FGP": 41.8,
+      "TPP": 50,
+      "FTP": 75,
+      "STL": 0.4,
+      "BLK": 0.1,
+      "TOV": 1.1
+    }
+  },
+  {
+    "id": 361,
+    "name": "JT Thor",
+    "games": 63,
+    "team": "CHA",
+    "stats": {
+      "MIN": 12.4,
+      "PTS": 3.2,
+      "REB": 2.3,
+      "AST": 0.5,
+      "FGP": 43.7,
+      "TPP": 34.6,
+      "FTP": 55,
+      "STL": 0.2,
+      "BLK": 0.4,
+      "TOV": 0.2
+    }
+  },
+  {
+    "id": 362,
+    "name": "Wesley Matthews",
+    "games": 36,
+    "team": "ATL",
+    "stats": {
+      "MIN": 11.5,
+      "PTS": 3.1,
+      "REB": 1.5,
+      "AST": 0.6,
+      "FGP": 35.1,
+      "TPP": 34.8,
+      "FTP": 75,
+      "STL": 0.4,
+      "BLK": 0.3,
+      "TOV": 0.2
+    }
+  },
+  {
+    "id": 363,
+    "name": "Dalen Terry",
+    "games": 59,
+    "team": "CHI",
+    "stats": {
+      "MIN": 11.5,
+      "PTS": 3.1,
+      "REB": 1.9,
+      "AST": 1.4,
+      "FGP": 43.9,
+      "TPP": 23,
+      "FTP": 58.1,
+      "STL": 0.5,
+      "BLK": 0.3,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 364,
+    "name": "Johnny Davis",
+    "games": 50,
+    "team": "WAS",
+    "stats": {
+      "MIN": 12.3,
+      "PTS": 3,
+      "REB": 1.4,
+      "AST": 0.6,
+      "FGP": 40.3,
+      "TPP": 35,
+      "FTP": 58.3,
+      "STL": 0.4,
+      "BLK": 0.2,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 365,
+    "name": "Mike Muscala",
+    "games": 53,
+    "team": "OKC",
+    "stats": {
+      "MIN": 11.3,
+      "PTS": 3,
+      "REB": 2.4,
+      "AST": 0.7,
+      "FGP": 35.9,
+      "TPP": 29.2,
+      "FTP": 68,
+      "STL": 0.2,
+      "BLK": 0.2,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 366,
+    "name": "Andre Jackson Jr.",
+    "games": 57,
+    "team": "MIL",
+    "stats": {
+      "MIN": 10,
+      "PTS": 2.2,
+      "REB": 2,
+      "AST": 0.9,
+      "FGP": 50,
+      "TPP": 37,
+      "FTP": 72.7,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 367,
+    "name": "Trent Forrest",
+    "games": 38,
+    "team": "ATL",
+    "stats": {
+      "MIN": 10.9,
+      "PTS": 2.2,
+      "REB": 1.3,
+      "AST": 2.4,
+      "FGP": 37.8,
+      "TPP": 20,
+      "FTP": 76.5,
+      "STL": 0.3,
+      "BLK": 0.1,
+      "TOV": 0.5
+    }
+  },
+  {
+    "id": 368,
+    "name": "Jericho Sims",
+    "games": 45,
+    "team": "NYK",
+    "stats": {
+      "MIN": 13,
+      "PTS": 2,
+      "REB": 3.3,
+      "AST": 0.6,
+      "FGP": 69.1,
+      "TPP": 0,
+      "FTP": 66.7,
+      "STL": 0.2,
+      "BLK": 0.4,
+      "TOV": 0.4
+    }
+  },
+  {
+    "id": 369,
+    "name": "Justin Minaya",
+    "games": 34,
+    "team": "POR",
+    "stats": {
+      "MIN": 11.2,
+      "PTS": 1.8,
+      "REB": 1.6,
+      "AST": 0.6,
+      "FGP": 29.7,
+      "TPP": 24.5,
+      "FTP": 55.6,
+      "STL": 0.3,
+      "BLK": 0.3,
+      "TOV": 0.3
+    }
+  },
+  {
+    "id": 370,
+    "name": "P.J. Tucker",
+    "games": 31,
+    "team": "LAC",
+    "stats": {
+      "MIN": 15.7,
+      "PTS": 1.7,
+      "REB": 2.7,
+      "AST": 0.5,
+      "FGP": 36,
+      "TPP": 37.1,
+      "FTP": 100,
+      "STL": 0.5,
+      "BLK": 0.2,
+      "TOV": 0.3
+    }
+  }
+]

@@ -1,6 +1,6 @@
 import { PlayerFullData } from '@/components/types';
 import { create } from 'zustand';
-import PlayerData from '@/data/data22to23.json';
+import PlayerData from '@/data/data23to24.json';
 import { getPlayerById } from '@/helper/getPlayerById';
 import { getConferenceByTeam } from '@/helper/getConferenceByTeam';
 import { scrollToElementWithSelector } from '@/helper/scrollToElementWithSelector';

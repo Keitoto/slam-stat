@@ -1,5 +1,5 @@
 import { PlayerFullData } from '@/components/types';
-import data from '@/data/data22to23.json';
+import data from '@/data/data23to24.json';
 const WEST_TEAMS = [
   'DAL',
   'DEN',
