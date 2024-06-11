@@ -6,6 +6,7 @@ import { SearchBar } from '@/components/SearchBar';
 import { ShowHintButton } from '@/components/ShowHintButton';
 import { Button } from '@/components/ui/button';
 import { useGameStore } from '@/store/store';
+import Confetti from 'react-confetti';
 
 export const PlayingPanel = () => {
   const {
@@ -37,6 +38,7 @@ export const PlayingPanel = () => {
       {/* Result Panel */}
       {!isPlaying && (
         <div className="mb-4" id="after-game">
+          <Confetti recycle={false} />
           <AfterGame />
         </div>
       )}
