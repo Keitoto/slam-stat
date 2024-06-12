@@ -38,7 +38,7 @@ export const PlayingPanel = () => {
 
       {/* Result Panel */}
       {!isPlaying && (
-        <div className="mb-4" id="after-game">
+        <div className="mb-8" id="after-game">
           {isSuccess && <Confetti recycle={false} />}
           <AfterGame />
         </div>
@@ -67,7 +67,7 @@ export const PlayingPanel = () => {
 
       {/* List of incorrect answers */}
       <div>
-        <p className="text-center pb-2">Your Answers</p>
+        <p className="text-center pb-2 font-semibold">Your Answers</p>
         <ResultTable />
       </div>
     </>

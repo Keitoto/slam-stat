@@ -22,7 +22,8 @@ export const StartGame = () => {
   );
 
   return (
-    <Card>
+    <Card className='p-4 border-2 border-black rounded-2xl relative'>
+      <div className='absolute bg-black size-full -z-10 left-3 top-3 rounded-2xl' />
       <CardHeader>
         <CardTitle>Get 7 chances to guess an NBA player.</CardTitle>
         <CardDescription>2023-2024 Regular Season</CardDescription>
@@ -30,13 +31,13 @@ export const StartGame = () => {
       <CardContent className="children:mb-8">
         <div className="flex py-2 items-center">
           <p className="font-bold w-[160px]">Games Played</p>
-          <span className="px-4 text-xl">&gt;</span>
+          <span className="px-4 text-xl">&ge;</span>
           <Select
             onValueChange={(value: string) => {
               updateSetting(setting.min_minutes, +value);
             }}
           >
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger className="w-[180px] font-semibold">
               <SelectValue placeholder={setting.min_games} />
             </SelectTrigger>
             <SelectContent>
@@ -49,13 +50,13 @@ export const StartGame = () => {
         </div>
         <div className="flex py-2 items-center">
           <p className="font-bold w-[160px]">Minutes per game</p>
-          <span className="px-4 text-xl">&gt;</span>
+          <span className="px-4 text-xl">&ge;</span>
           <Select
             onValueChange={(value: string) => {
               updateSetting(+value, setting.min_games);
             }}
           >
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger className="w-[180px] font-semibold">
               <SelectValue placeholder={setting.min_minutes} />
             </SelectTrigger>
             <SelectContent>
@@ -69,7 +70,7 @@ export const StartGame = () => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button onClick={startGame}>
+        <Button onClick={startGame} className='font- text-md'>
           Start guessing from {filteredPlayers.length} players
         </Button>
       </CardFooter>

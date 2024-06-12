@@ -23,7 +23,7 @@ export const SearchBar = () => {
   );
 
   return (
-    <div className="flex-1">
+    <div>
       <Input
         placeholder="Guess a Player"
         value={searchTerm}

@@ -16,13 +16,13 @@ export const QuizGrid: FC<Props> = () => {
   if (!targetPlayer) return;
 
   return (
-    <Card className="p-4 border-4">
+    <Card className="p-6 border-4 border-black">
       {isPlaying ? (
-        <p className="text-center mb-4 font-bold">Who is this Player?</p>
+        <p className="text-center mb-2 text-xl font-bold">Who is this Player?</p>
       ) : (
         <p className="text-center mb-4 font-bold">{targetPlayer.name}</p>
       )}
-      <div className="space-y-4">
+      <div className="space-y-8">
         <div className="flex justify-around">
           <Cell label="Conf">
             <HiddenStat isOpen={isConfRevealed}>{targetPlayer.conf}</HiddenStat>
@@ -74,8 +74,8 @@ interface CellProps {
 }
 
 const Cell: FC<CellProps> = ({ label, children }) => (
-  <div className="flex flex-col items-center text-lg">
-    <p className="font-light mb-1 text-xs">{label}</p>
+  <div className="flex flex-col items-center text-lg font-semibold">
+    <p className="font-normal mb-1 text-xs">{label}</p>
     {children}
   </div>
 );
