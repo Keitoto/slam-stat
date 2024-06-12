@@ -25,9 +25,9 @@ const HeadArray = [
   'TOV',
 ];
 
-function isWithinTenPercentRange(value1: number, value2: number): boolean {
-  const lowerBound = value1 * 0.9;
-  const upperBound = value1 * 1.1;
+function isWithinFivePercentRange(value1: number, value2: number): boolean {
+  const lowerBound = value1 * 0.95;
+  const upperBound = value1 * 1.05;
   return value2 >= lowerBound && value2 <= upperBound;
 }
 
@@ -41,13 +41,13 @@ export const ResultTable = () => {
     if (callValue === targetValue) {
       return 'green-cell';
       // Close (10%)
-    } else if (isWithinTenPercentRange(callValue, targetValue)) {
+    } else if (isWithinFivePercentRange(callValue, targetValue)) {
       return 'yellow-cell';
     }
   };
 
   return (
-    <Table id="answers">
+    <Table id="answers" className="text-center">
       <TableHeader>
         <TableRow>
           {HeadArray.map((col) => (
