@@ -76,8 +76,8 @@
 }
 
 .green-cell {
-  @apply border border-green-400
+  @apply border-2 border-correct;
 }
 .yellow-cell {
-  @apply border border-yellow-300
+  @apply border-2 border-highlight;
 }
