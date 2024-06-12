@@ -16,6 +16,7 @@ export const PlayingPanel = () => {
     isPlaying,
     isConfRevealed,
     isTeamRevealed,
+    isSuccess
   } = useGameStore((state) => state);
 
   if (!targetPlayer) return;
@@ -38,7 +39,7 @@ export const PlayingPanel = () => {
       {/* Result Panel */}
       {!isPlaying && (
         <div className="mb-4" id="after-game">
-          <Confetti recycle={false} />
+          {isSuccess && <Confetti recycle={false} />}
           <AfterGame />
         </div>
       )}
