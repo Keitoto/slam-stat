@@ -21,7 +21,7 @@ export default function Index() {
   return (
     <>
       <Header />
-      <main className="pt-16 px-4 pb-8 flex items-center justify-center min-h-screen font-chakra">
+      <main className="pt-16 xs:px-4 px-8 pb-8 flex items-center justify-center min-h-screen font-chakra">
         {!targetPlayer ? <StartGame /> : <PlayingPanel />}
       </main>
       <Footer />

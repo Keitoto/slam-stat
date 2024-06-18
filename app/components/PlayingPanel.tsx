@@ -25,7 +25,7 @@ export const PlayingPanel = () => {
   console.log(targetPlayer.name);
 
   return (
-    <>
+    <div className='flex flex-col py-8 max-w-[900px] w-full'>
       {/* Game Header */}
       <div className="flex justify-between items-center gap-8 mb-4">
         <LifeBar remainingLife={remainingLife} />
@@ -70,6 +70,6 @@ export const PlayingPanel = () => {
         <p className="text-center pb-2 font-semibold">Your Answers</p>
         <ResultTable />
       </div>
-    </>
+    </div>
   );
 };
