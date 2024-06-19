@@ -21,9 +21,6 @@ export const PlayingPanel = () => {
 
   if (!targetPlayer) return;
 
-  // DEV
-  console.log(targetPlayer.name);
-
   return (
     <div className='flex flex-col py-8 max-w-[900px] w-full'>
       {/* Game Header */}
