@@ -1,3 +1,4 @@
+import { LoadingSpinner } from '@/assets/LoadingSpinner';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { PlayingPanel } from '@/components/PlayingPanel';
@@ -16,13 +17,14 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const targetPlayer = useGameStore((state) => state.targetPlayer);
+  const { targetPlayer, _hasHydrated } = useGameStore((state) => state);
 
   return (
     <>
       <Header />
       <main className="pt-16 xs:px-4 px-8 pb-8 flex items-center justify-center min-h-screen font-chakra">
-        {!targetPlayer ? <StartGame /> : <PlayingPanel />}
+        {!_hasHydrated && <LoadingSpinner />}
+        {!targetPlayer && _hasHydrated ? <StartGame /> : <PlayingPanel />}
       </main>
       <Footer />
     </>

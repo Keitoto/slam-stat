@@ -24,6 +24,7 @@ interface GameState {
   };
   isConfRevealed: boolean;
   isTeamRevealed: boolean;
+  _hasHydrated: boolean;
 }
 
 interface GameAction {
@@ -33,21 +34,23 @@ interface GameAction {
   giveUp: () => void;
   updateSetting: (min: number, games: number) => void;
   revealHint: () => void;
+  setHasHydrated: (state: boolean) => void;
 }
 
 const InitialState = {
   targetPlayer: undefined,
   remainingLife: NUMBER_OF_LIFE,
   resultArray: [],
-  filteredPlayers: (PlayerData as PlayerFullData[]).filter(
-    (player) => player.games > MIN_GAMES && player.stats.MIN > MIN_MINUTE,
-  ),
   setting: {
     min_games: MIN_GAMES,
     min_minutes: MIN_MINUTE,
   },
+  filteredPlayers: (PlayerData as PlayerFullData[]).filter(
+    (player) => player.games > MIN_GAMES && player.stats.MIN > MIN_MINUTE,
+  ),
   isPlaying: false,
   isSuccess: false,
+  _hasHydrated: false,
   isConfRevealed: false,
   isTeamRevealed: false,
 };
@@ -56,6 +59,7 @@ export const useGameStore = create<GameState & GameAction>()(
   persist(
     (set, get) => ({
       ...InitialState,
+      setHasHydrated: (state) => set({ _hasHydrated: state }),
       startGame: () => {
         const { filteredPlayers } = get();
         const randomIndex =
@@ -131,6 +135,7 @@ export const useGameStore = create<GameState & GameAction>()(
         const filteredPlayers = (PlayerData as PlayerFullData[]).filter(
           (player) => player.games > games && player.stats.MIN > min,
         );
+        console.log(filteredPlayers.length);
         set(() => ({
           setting: { min_games: games, min_minutes: min },
           filteredPlayers,
@@ -152,7 +157,15 @@ export const useGameStore = create<GameState & GameAction>()(
     {
       name: 'game-setting', // name of the item in the storage (must be unique)
       // storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
-      partialize: (state) => ({ setting: state.setting }),
+      partialize: (state) => ({
+        setting: state.setting,
+        filteredPlayers: state.filteredPlayers,
+      }),
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          state.setHasHydrated(true);
+        }
+      },
     },
   ),
 );
