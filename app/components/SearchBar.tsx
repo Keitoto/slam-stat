@@ -1,6 +1,6 @@
 import { Input } from '@/components/ui/input';
 import { ChangeEvent, useState, MouseEvent } from 'react';
-import searchData from '../data/searchData23to24.json';
+import searchData from '@/data/searchData23to24.json';
 import { useGameStore } from '@/store/store';
 
 export const SearchBar = () => {
