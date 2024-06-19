@@ -10,8 +10,7 @@
     "lintfix": "npm run lint -- --fix",
     "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\"",
     "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc",
-    "prepare": "husky install"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
